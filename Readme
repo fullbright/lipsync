@@ -1,0 +1,32 @@
+1 - Install lua
+
+If you use a proxy (or you will be in a network with a proxy)
+  - Install corkscrew
+  - Add the following to ~/.ssh/config
+     Host *
+      ProxyCommand corkscrew <proxy url> <proxy port> %h %p 
+
+2 - Compile and INstall lsyncd 2.0
+
+3 - Setup lua file
+http://code.google.com/p/lsyncd/wiki/Lsyncd20Manual#Settings
+
+4 - Configure startup on boot
+
+5 - 
+
+6 - Configure cronjob for rsync tasks
+rsync commands sync
+https://help.ubuntu.com/community/CronHowto
+
+Do not use sudo crontab -e
+Use crontab -e (so the script will run as the user you are connected as)
+
+
+7 - 
+
+8 - Setup automatic connexion to server passwordless
+http://www.notesbit.com/index.php/scripts-unix/how-to-create-ssh-trust-connection-between-servers-or-client-server-to-connect-without-password/
+
+9 - Add startup and stop scripts to /etc/init.d/
+

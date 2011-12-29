@@ -1,0 +1,19 @@
+Lsyncd status report at Wed Aug 10 16:25:24 2011
+
+Sync1 source=/home/fullbright/scripts/
+There are 0 delays
+Excluding:
+  nothing.
+
+
+Inotify watching 10 directories
+  1: /home/fullbright/scripts/
+  2: /home/fullbright/scripts/walls/
+  3: /home/fullbright/scripts/fonts/
+  4: /home/fullbright/scripts/conky_ken2/
+  5: /home/fullbright/scripts/conky_ken2/Fonts/
+  6: /home/fullbright/scripts/conky_ken2/Fonts/weather/
+  7: /home/fullbright/scripts/conky_ken2/Fonts/santana/
+  8: /home/fullbright/scripts/conky_ken2/Conky/
+  9: /home/fullbright/scripts/conky_ken2/bin/
+  10: /home/fullbright/scripts/conky_ken2/bin/conky/

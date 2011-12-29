@@ -4,7 +4,7 @@
 # Source https://github.com/philcryer/lipsync
 
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-PARAM_CONF_FILE=/opt/helenasync/conf/helenasync.conf
+PARAM_CONF_FILE=/home/fullbright/.helenasync/helenasync.conf
 
 ###############
 # source config, define logfile

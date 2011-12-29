@@ -1,0 +1,167 @@
+#!/bin/sh -e
+# Distributed under the terms of the BSD License.
+# Copyright (c) 2011 Phil Cryer phil.cryer@gmail.com
+# Source https://github.com/philcryer/lipsync
+
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+### BEGIN INIT INFO
+# Provides:          lipsyncd
+# Required-Start:    $syslog $local_fs
+# Required-Stop:     $syslog $local_fs
+# Should-Start:      dbus avahi
+# Should-Stop:       dbus avahi
+# Default-Start:     2 3 4 5
+# Default-Stop:      1
+# Short-Description: a service that provides automated, command-line syncing
+### END INIT INFO
+
+#DAEMON=/usr/local/bin/lsyncd
+#NAME=helenasync
+#DESC="a service that provides command-line, automated syncing between systems"
+#LOGLEVEL=scarce
+#DELAY_SEC=2
+#USER_NAME=fullbright
+#REMOTE_USER_NAME=sergio
+#CONF_FILE=/home/$USER_NAME/.$NAME/helenasync.lua
+#LOGFILE=/home/$USER_NAME/.$NAME/$NAME.log
+#PIDFILE=/home/$USER_NAME/.$NAME/$NAME.pid
+
+PARAM_CONF_FILE=/opt/helenasync/conf/helenasync.conf
+
+######
+# Load parameters
+######
+if [ -e $PARAM_CONF_FILE ]; then
+        . $PARAM_CONF_FILE
+fi
+
+######
+# Test if daemon exists
+######
+test -x $DAEMON || exit 0
+
+RUN=yes
+RUN_AS_USER=$USER_NAME
+
+# Include lipsyncd defaults if available
+if [ -f /etc/default/lipsyncd ] ; then
+    . /etc/default/lipsyncd
+fi
+
+# ensure user's log/pid dir is avail, create if not
+if [ ! -d /opt/$NAME/log ]; then
+    mkdir /opt/$NAME/log
+fi
+# verify sane perms on log/pid dir
+chown $USER_NAME:$USER_NAME /opt/$NAME/log
+
+if [ "x$RUN" != "xyes" ] ; then
+    echo "RUN variable is set to $RUN. Exiting ..."
+    exit 0
+fi
+
+DAEMON_OPTS="-a $RUN_AS_USER"
+
+set -e
+
+case "$1" in
+  start)
+	echo -n "Starting $NAME daemon..."
+	#su $RUN_AS_USER -c "$DAEMON -log $LOGLEVEL -delay $DELAY_SEC -logfile $LOGFILE -pidfile $PIDFILE -rsyncssh $LOCAL_DIR $REMOTE_HOST $REMOTE_DIR"
+	echo "Executing command : su $RUN_AS_USER $DAEMON -log $LOGLEVEL -delay $DELAY_SEC -logfile $LOGFILE -pidfile $PIDFILE $CONF_FILE"
+	su $RUN_AS_USER -c "$DAEMON -log $LOGLEVEL -delay $DELAY_SEC -logfile $LOGFILE -pidfile $PIDFILE $CONF_FILE"
+	#$DAEMON -log $LOGLEVEL -delay $DELAY_SEC -logfile $LOGFILE -pidfile $PIDFILE $CONF_FILE
+	echo "done"
+	#echo `ps -fe | grep "/usr/local/bin/lipsyncd" | grep -v grep | cut -d' ' -f7` > $PIDFILE
+	echo `pidof $DAEMON` > $PIDFILE
+	#echo "====== lipsyncd (pid `cat $PIDFILE`) started on `date` =====" >> $LOGFILE
+	#echo "====== lipsyncd (pid `pidof lipsyncd`) started on `date` =====" >> $LOGFILE
+	echo "`date "+%a %b %d %T %Y"` Daemon: helenasyncd has started as pid `pidof $DAEMON`" >> $LOGFILE
+	#
+	#Starting lipsync updater in a separated thread
+	echo -n "Starting lipsync updater in a separated thread ... "
+	$UPDATER_DAEMON >> $LOGFILE &
+	#echo `pidof $UPDATER_DAEMON` > $UPDATER_PIDFILE
+	eval UPDATER_PID=`ps aux | grep $UPDATER_DAEMON | grep -v grep | awk '{print $2}'`
+	echo $UPDATER_PID > $UPDATER_PIDFILE
+	echo "Done."
+	echo "Updater has started with pid $UPDATER_PID"
+	#
+	#notify startup
+	$NOTIFY_BIN "${NAME} has started."
+	;;
+  stop)
+	echo "Stopping $NAME daemon..."
+	#start-stop-daemon --stop --oknodo --quiet --pidfile /var/run/$NAME.pid \ --exec $DAEMON
+	#echo "====== lipsyncd stopped on `date` =====" >> $LOGFILE
+	echo "`date "+%a %b %d %T %Y"` Daemon: helenasyncd is stopping" >> $LOGFILE
+	
+	######## Killing daemon
+	echo "   Killing all $DAEMON ... "
+	echo -n "       Removing PID file for $DAEMON ... "
+	if [ -f $PIDFILE ] ; then
+		rm $PIDFILE
+		echo "done."
+		echo -n "          Killing daemon ... "
+		`killall $DAEMON`
+		echo "done."
+	else
+		echo "Fail. $PIDFILE not found."
+	fi
+	
+	
+	
+	######### Killing updater daemon
+	echo "   Killing all $UPDATER_DAEMON ... "
+	echo -n "       Removing PID file for $UPDATER_DAEMON ... "	
+	if [ -f $UPDATER_PIDFILE ]; then
+		rm $UPDATER_PIDFILE
+		echo "Done."
+		echo -n "          Killing daemon ... "
+		#`killall $UPDATER_DAEMON`
+		#kill -9 `ps aux | grep $UPDATER_DAEMON | grep -v grep | awk '{print $2}'`
+		ps aux | grep $UPDATER_DAEMON | grep -v grep | awk '{print $2}' | xargs kill -9
+		echo "done"
+	else
+		echo "Fail. $UPDATER_PIDFILE not found."
+	fi
+	#
+	echo "Done."
+
+	$NOTIFY_BIN "$NAME daemon stopped."
+	;;
+  force-reload)
+	# check whether $DAEMON is running. If so, restart
+	start-stop-daemon --stop --test --quiet --pidfile \
+		$PIDFILE --exec $DAEMON \
+	&& $0 restart \
+	|| exit 0
+	;;
+  restart)
+	echo -n "Restarting $DESC: "
+	start-stop-daemon --stop --quiet --pidfile \
+		$PIDFILE --exec $DAEMON
+	sleep 1
+	start-stop-daemon --start --quiet --pidfile \
+		$PIDFILE --exec $DAEMON -- $DAEMON_OPTS
+	echo "$NAME."
+	$NOTIFY_BIN "$NAME has restarted."
+	;;
+  status)
+	if [ -s $PIDFILE ]; then
+        	echo "$NAME is running as PID `cat $PIDFILE`."
+                exit 0
+        else
+           	echo "$NAME not running."
+           	exit 1
+        fi
+	;;
+  *)
+	N=/etc/init.d/$NAME
+	echo "Usage: $N {start|stop|restart|force-reload}" >&2
+	exit 1
+	;;
+esac
+
+exit 0

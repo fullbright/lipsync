@@ -1,0 +1,4 @@
+.svn
+#This is used to avoid syncing files marked as deleted
+.deleted
+.metadata
