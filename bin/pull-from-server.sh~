@@ -3,7 +3,7 @@
 # Copyright (c) 2011 Phil Cryer phil.cryer@gmail.com
 # Source https://github.com/philcryer/lipsync
 
-PARAM_CONF_FILE=/home/fullbright/.helenasync/helenasync.conf
+PARAM_CONF_FILE=/opt/helenasync/conf/helenasync.conf
 
 ###############
 # source config, define logfile

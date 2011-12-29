@@ -51,8 +51,8 @@ UPDATER_PIDFILE=/opt/$NAME/log/$NAME.updater.pid
 #### move specific configurations to the user's home directory
 CONF_FILE=/opt/$NAME/conf/helenasync.lua
 EXCLUDE_FILE=/opt/$NAME/conf/rsync_exclude.txt
-LOGFILE=/opt/$NAME/conf/$NAME.log
-PIDFILE=/opt/$NAME/conf/$NAME.pid
+LOGFILE=/opt/$NAME/log/$NAME.log
+PIDFILE=/opt/$NAME/log/$NAME.pid
 #Synchronization variables
 REMOTE_HOST=home.afanou.com
 REMOTE_USER_NAME=sergio

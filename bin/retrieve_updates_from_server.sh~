@@ -11,6 +11,8 @@ PARAM_CONF_FILE=/home/fullbright/.helenasync/helenasync.conf
 ###############
 if [ -e $PARAM_CONF_FILE ]; then
         . $PARAM_CONF_FILE
+else
+	echo "****** ERROR ******* : The configuration file $PARAM_CONF_FILE does not exist !"
 fi
 
 ###############
@@ -58,10 +60,10 @@ $PULL_BIN home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ /home/fullbright
 $PULL_BIN home.afanou.com:/home/sergio/mydropbox/ /home/fullbright/mydropbox/
 
 #$PULL_BIN home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ /media/OS/Users/gpartner/Personnel/sergio/documents/
-$PULL_BIN home.afanou.com:/media/DATA/SERGIO-PC/documents/ /home/fullbright/Documents/Personnel/sergio/documents/
+$PULL_BIN home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ /home/fullbright/Documents/Personnel/documents/
 
 #$PULL_BIN home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ /media/OS/Users/gpartner/Professionel/
-$PULL_BIN home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ /home/fullbright/Documents/Professionel/
+$PULL_BIN home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ /home/fullbright/Documents/Professionnel/
 
 echo "------------------ END ------------------------"
 ###

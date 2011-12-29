@@ -132,3 +132,157 @@ sending incremental file list
 
 sent 1923 bytes  received 22 bytes  778.00 bytes/sec
 total size is 5891582  speedup is 3029.09
+jeu. déc. 29 13:45:26 2011 Daemon: helenasyncd is stopping
+Thu Dec 29 13:45:26 2011 Normal: --- TERM signal, fading ---
+====== /usr/local/bin/lsyncd (pid 693) started on jeudi 29 décembre 2011, 13:46:47 (UTC+0100) =====
+====== /usr/local/bin/lsyncd (pid ) started on jeudi 29 décembre 2011, 13:46:47 (UTC+0100) =====
+jeu. déc. 29 13:46:47 2011 Daemon: helenasyncd has started as pid 693
+Retrieving data from servers
+****** ERROR ******* : The configuration file /home/fullbright/.helenasync/helenasync.conf does not exist !
+No  process running. Exiting ...
+Thu Dec 29 13:46:49 2011 Normal: recursive startup rsync: /home/fullbright/scripts/ -> sergio@home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/
+sending incremental file list
+
+sent 1923 bytes  received 22 bytes  778.00 bytes/sec
+total size is 5891582  speedup is 3029.09
+jeu. déc. 29 13:50:41 2011 Daemon: helenasyncd is stopping
+Thu Dec 29 13:50:41 2011 Normal: --- TERM signal, fading ---
+jeu. déc. 29 13:54:17 2011 Daemon: helenasyncd is stopping
+====== /usr/local/bin/lsyncd (pid 882) started on jeudi 29 décembre 2011, 13:56:37 (UTC+0100) =====
+====== /usr/local/bin/lsyncd (pid ) started on jeudi 29 décembre 2011, 13:56:37 (UTC+0100) =====
+jeu. déc. 29 13:56:37 2011 Daemon: helenasyncd has started as pid 882
+Retrieving data from servers
+Thu Dec 29 13:56:37 2011 Normal: recursive startup rsync: /home/fullbright/scripts/ -> sergio@home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/
+jeu. déc. 29 13:56:37 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 13:56:37 2011 Cron: found 2 running helenasync processes
+jeu. déc. 29 13:56:37 2011 Cron: not running helenasync, another process already running
+Done.
+Going to sleep 2400 seconds
+sending incremental file list
+
+sent 1923 bytes  received 22 bytes  1296.67 bytes/sec
+total size is 5891582  speedup is 3029.09
+jeu. déc. 29 13:58:57 2011 Daemon: helenasyncd is stopping
+Thu Dec 29 13:58:57 2011 Normal: --- TERM signal, fading ---
+====== /usr/local/bin/lsyncd (pid 1209) started on jeudi 29 décembre 2011, 14:09:11 (UTC+0100) =====
+====== /usr/local/bin/lsyncd (pid ) started on jeudi 29 décembre 2011, 14:09:11 (UTC+0100) =====
+jeu. déc. 29 14:09:11 2011 Daemon: helenasyncd has started as pid 1209
+Retrieving data from servers
+jeu. déc. 29 14:09:11 2011 Cron: checking for running lipsync processes
+Thu Dec 29 14:09:11 2011 Normal: recursive startup rsync: /home/fullbright/scripts/ -> sergio@home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/
+jeu. déc. 29 14:09:11 2011 Cron: found 0 running helenasync processes
+-------- RETRIEVING UPDATES FROM SERVER -------
+jeu. déc. 29 14:09:11 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 14:09:11 2011 Cron: found 2 running helenasync processes
+jeu. déc. 29 14:09:11 2011 Cron: not running helenasync, another process already running
+jeu. déc. 29 14:09:11 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 14:09:11 2011 Cron: found 2 running helenasync processes
+jeu. déc. 29 14:09:11 2011 Cron: not running helenasync, another process already running
+jeu. déc. 29 14:09:12 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 14:09:12 2011 Cron: found 2 running helenasync processes
+jeu. déc. 29 14:09:12 2011 Cron: not running helenasync, another process already running
+jeu. déc. 29 14:09:12 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 14:09:12 2011 Cron: found 2 running helenasync processes
+jeu. déc. 29 14:09:12 2011 Cron: not running helenasync, another process already running
+------------------ END ------------------------
+Done.
+Going to sleep 2400 seconds
+sending incremental file list
+
+sent 1923 bytes  received 22 bytes  778.00 bytes/sec
+total size is 5891582  speedup is 3029.09
+jeu. déc. 29 14:12:38 2011 Daemon: helenasyncd is stopping
+jeu. déc. 29 14:13:47 2011 Daemon: helenasyncd is stopping
+jeu. déc. 29 14:21:33 2011 Daemon: helenasyncd is stopping
+jeu. déc. 29 14:21:40 2011 Daemon: helenasyncd is stopping
+jeu. déc. 29 14:22:04 2011 Daemon: helenasyncd is stopping
+====== /usr/local/bin/lsyncd (pid 1751) started on jeudi 29 décembre 2011, 14:37:53 (UTC+0100) =====
+====== /usr/local/bin/lsyncd (pid ) started on jeudi 29 décembre 2011, 14:37:53 (UTC+0100) =====
+jeu. déc. 29 14:37:53 2011 Daemon: helenasyncd has started as pid 1751
+Retrieving data from servers
+Thu Dec 29 14:37:53 2011 Normal: recursive startup rsync: /home/fullbright/scripts/ -> sergio@home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/
+jeu. déc. 29 14:37:53 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 14:37:53 2011 Cron: found 2 running helenasync processes
+jeu. déc. 29 14:37:53 2011 Cron: not running helenasync, another process already running
+Done.
+Going to sleep 2400 seconds
+sending incremental file list
+
+sent 1923 bytes  received 22 bytes  778.00 bytes/sec
+total size is 5891582  speedup is 3029.09
+jeu. déc. 29 14:39:05 2011 Daemon: helenasyncd is stopping
+jeu. déc. 29 14:39:20 2011 Daemon: helenasyncd is stopping
+jeu. déc. 29 14:39:29 2011 Daemon: helenasyncd is stopping
+jeu. déc. 29 14:40:44 2011 Daemon: helenasyncd is stopping
+jeu. déc. 29 14:40:49 2011 Daemon: helenasyncd is stopping
+jeu. déc. 29 14:41:19 2011 Daemon: helenasyncd is stopping
+====== /usr/local/bin/lsyncd (pid 2126) started on jeudi 29 décembre 2011, 14:43:40 (UTC+0100) =====
+====== /usr/local/bin/lsyncd (pid ) started on jeudi 29 décembre 2011, 14:43:40 (UTC+0100) =====
+jeu. déc. 29 14:43:40 2011 Daemon: helenasyncd has started as pid 2126
+Retrieving data from servers
+Thu Dec 29 14:43:40 2011 Normal: recursive startup rsync: /home/fullbright/scripts/ -> sergio@home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/
+jeu. déc. 29 14:43:40 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 14:43:40 2011 Cron: found 2 running helenasync processes
+jeu. déc. 29 14:43:40 2011 Cron: not running helenasync, another process already running
+Done.
+Going to sleep 2400 seconds
+sending incremental file list
+
+sent 1923 bytes  received 22 bytes  778.00 bytes/sec
+total size is 5891582  speedup is 3029.09
+jeu. déc. 29 14:50:32 2011 Daemon: helenasyncd is stopping
+jeu. déc. 29 14:50:40 2011 Daemon: helenasyncd is stopping
+jeu. déc. 29 14:52:39 2011 Daemon: helenasyncd is stopping
+jeu. déc. 29 14:53:12 2011 Daemon: helenasyncd is stopping
+====== /usr/local/bin/lsyncd (pid 2421) started on jeudi 29 décembre 2011, 14:53:23 (UTC+0100) =====
+====== /usr/local/bin/lsyncd (pid ) started on jeudi 29 décembre 2011, 14:53:23 (UTC+0100) =====
+jeu. déc. 29 14:53:23 2011 Daemon: helenasyncd has started as pid 2421
+Retrieving data from servers
+Thu Dec 29 14:53:23 2011 Normal: recursive startup rsync: /home/fullbright/scripts/ -> sergio@home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/
+jeu. déc. 29 14:53:23 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 14:53:23 2011 Cron: found 2 running helenasync processes
+jeu. déc. 29 14:53:23 2011 Cron: not running helenasync, another process already running
+Done.
+Going to sleep 2400 seconds
+sending incremental file list
+
+sent 1923 bytes  received 22 bytes  778.00 bytes/sec
+total size is 5891582  speedup is 3029.09
+jeu. déc. 29 14:54:16 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 14:54:17 2011 Cron: found 0 running helenasync processes
+jeu. déc. 29 14:54:17 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 14:54:17 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ -> /home/fullbright/scripts/
+2011/12/29 14:54:18 [2507] receiving file list
+2011/12/29 14:54:18 [2510] Number of files: 64
+2011/12/29 14:54:18 [2510] Number of files transferred: 0
+2011/12/29 14:54:18 [2510] Total file size: 5891582 bytes
+2011/12/29 14:54:18 [2510] Total transferred file size: 0 bytes
+2011/12/29 14:54:18 [2510] Literal data: 0 bytes
+2011/12/29 14:54:18 [2510] Matched data: 0 bytes
+2011/12/29 14:54:18 [2510] File list size: 1276
+2011/12/29 14:54:18 [2510] File list generation time: 0.001 seconds
+2011/12/29 14:54:18 [2510] File list transfer time: 0.000 seconds
+2011/12/29 14:54:18 [2510] Total bytes sent: 60
+2011/12/29 14:54:18 [2510] Total bytes received: 1332
+2011/12/29 14:54:18 [2510] sent 60 bytes  received 1332 bytes  928.00 bytes/sec
+2011/12/29 14:54:18 [2510] total size is 5891582  speedup is 4232.46
+-------- Done
+jeu. déc. 29 14:54:18 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 14:54:23 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 14:54:23 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/home/sergio/mydropbox/ -> /home/fullbright/mydropbox/
+2011/12/29 14:54:25 [2549] receiving file list
+2011/12/29 14:54:26 [2552] .d..t...... bin/
+Thu Dec 29 14:54:40 2011 Normal: Rsyncing list
+/bin
+/bin/.backup_ubuntu_desktop_script.log.w4fRM0
+sending incremental file list
+bin/
+bin/.backup_ubuntu_desktop_script.log.w4fRM0
+
+sent 4457489 bytes  received 36 bytes  83318.22 bytes/sec
+total size is 13629414  speedup is 3.06
+Thu Dec 29 14:55:33 2011 Normal: Finished a list = 0

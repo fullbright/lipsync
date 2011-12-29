@@ -11,6 +11,8 @@ PARAM_CONF_FILE=/opt/helenasync/conf/helenasync.conf
 ###############
 if [ -e $PARAM_CONF_FILE ]; then
         . $PARAM_CONF_FILE
+else
+	echo "****** ERROR ******* : The configuration file $PARAM_CONF_FILE does not exist !"
 fi
 
 SYSTEM=`uname`
@@ -19,7 +21,9 @@ MESSAGE="${1}"
 
 if [ ${SYSTEM} == 'Linux' ]; then
 	if which notify-send > /dev/null; then
+		set +e
   		DISPLAY=:0.0 notify-send --icon=$NOTIFY_ICON --expire-time=1 "$NAME" "${MESSAGE}"
+		set -e
 	elif which zenity > /dev/null; then
 		echo 'message:lipsync '${MESSAGE}'' | DISPLAY=:0.0 zenity --notification --window-icon=$NOTIFY_ICON --listen
 	fi

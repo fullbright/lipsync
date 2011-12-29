@@ -4,13 +4,16 @@
 # Source https://github.com/philcryer/lipsync
 
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-PARAM_CONF_FILE=/home/fullbright/.helenasync/helenasync.conf
+PARAM_CONF_FILE=/opt/helenasync/conf/helenasync.conf
 
 ###############
 # source config, define logfile
 ###############
 if [ -e $PARAM_CONF_FILE ]; then
         . $PARAM_CONF_FILE
+else
+	echo "****** ERROR ******* : The configuration file $PARAM_CONF_FILE does not exist !"
+	exit -1
 fi
 
 ###############

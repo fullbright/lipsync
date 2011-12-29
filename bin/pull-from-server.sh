@@ -10,6 +10,8 @@ PARAM_CONF_FILE=/opt/helenasync/conf/helenasync.conf
 ###############
 if [ -e $PARAM_CONF_FILE ]; then
         . $PARAM_CONF_FILE
+else
+	echo "****** ERROR ******* : The configuration file $PARAM_CONF_FILE does not exist !"
 fi
 
 LOCAL_DIR="$2"
