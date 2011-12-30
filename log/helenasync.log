@@ -286,3 +286,2447 @@ bin/.backup_ubuntu_desktop_script.log.w4fRM0
 sent 4457489 bytes  received 36 bytes  83318.22 bytes/sec
 total size is 13629414  speedup is 3.06
 Thu Dec 29 14:55:33 2011 Normal: Finished a list = 0
+2011/12/29 15:01:04 [2552] >f.st...... bin/backup_ubuntu_desktop_script.log
+2011/12/29 15:01:05 [2552] >f.st...... bin/backup_ubuntu_desktop_script.sh
+2011/12/29 15:01:05 [2552] Number of files: 2665
+2011/12/29 15:01:05 [2552] Number of files transferred: 2
+2011/12/29 15:01:05 [2552] Total file size: 2396419524 bytes
+2011/12/29 15:01:05 [2552] Total transferred file size: 43586190 bytes
+2011/12/29 15:01:05 [2552] Literal data: 40710826 bytes
+2011/12/29 15:01:05 [2552] Matched data: 2875364 bytes
+2011/12/29 15:01:05 [2552] File list size: 58778
+2011/12/29 15:01:05 [2552] File list generation time: 0.002 seconds
+2011/12/29 15:01:05 [2552] File list transfer time: 0.000 seconds
+2011/12/29 15:01:05 [2552] Total bytes sent: 10553
+2011/12/29 15:01:05 [2552] Total bytes received: 40782309
+2011/12/29 15:01:05 [2552] sent 10553 bytes  received 40782309 bytes  101348.73 bytes/sec
+2011/12/29 15:01:05 [2552] total size is 2396419524  speedup is 58.75
+-------- Done
+jeu. déc. 29 15:01:05 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 15:01:10 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:01:10 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ -> /home/fullbright/Documents/Personnel/documents/
+2011/12/29 15:01:12 [2754] receiving file list
+2011/12/29 15:01:13 [2757] Number of files: 3773
+2011/12/29 15:01:13 [2757] Number of files transferred: 0
+2011/12/29 15:01:13 [2757] Total file size: 3139901166 bytes
+2011/12/29 15:01:13 [2757] Total transferred file size: 0 bytes
+2011/12/29 15:01:13 [2757] Literal data: 0 bytes
+2011/12/29 15:01:13 [2757] Matched data: 0 bytes
+2011/12/29 15:01:13 [2757] File list size: 100368
+2011/12/29 15:01:13 [2757] File list generation time: 0.003 seconds
+2011/12/29 15:01:13 [2757] File list transfer time: 0.000 seconds
+2011/12/29 15:01:13 [2757] Total bytes sent: 334
+2011/12/29 15:01:13 [2757] Total bytes received: 101418
+2011/12/29 15:01:13 [2757] sent 334 bytes  received 101418 bytes  29072.00 bytes/sec
+2011/12/29 15:01:13 [2757] total size is 3139901166  speedup is 30858.37
+-------- Done
+jeu. déc. 29 15:01:13 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 15:01:18 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:01:18 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ -> /home/fullbright/Documents/Professionnel/
+2011/12/29 15:01:19 [2794] receiving file list
+Thu Dec 29 15:01:19 2011 Normal: Deleting list
+/home/sergio/mydropbox//bin/.backup_ubuntu_desktop_script.log.w4fRM0
+/home/sergio/mydropbox//bin/.backup_ubuntu_desktop_script.sh.NCxNBH
+Thu Dec 29 15:01:22 2011 Normal: Finished a list = 0
+Thu Dec 29 15:01:22 2011 Normal: Rsyncing list
+/bin/backup_ubuntu_desktop_script.log
+/bin/backup_ubuntu_desktop_script.sh
+/bin
+sending incremental file list
+bin/
+
+sent 409 bytes  received 17 bytes  170.40 bytes/sec
+total size is 89011228  speedup is 208946.54
+Thu Dec 29 15:01:24 2011 Normal: Finished a list = 0
+2011/12/29 15:01:24 [2794] *deleting   Projets/Charentes Alliance/0538_001.pdf
+2011/12/29 15:01:26 [2798] .d..t...... Projets/Charentes Alliance/
+2011/12/29 15:01:26 [2798] .d...p..... Projets/Teralibris/
+2011/12/29 15:01:27 [2798] Number of files: 6203
+2011/12/29 15:01:27 [2798] Number of files transferred: 0
+2011/12/29 15:01:27 [2798] Total file size: 826082227 bytes
+2011/12/29 15:01:27 [2798] Total transferred file size: 0 bytes
+2011/12/29 15:01:27 [2798] Literal data: 0 bytes
+2011/12/29 15:01:27 [2798] Matched data: 0 bytes
+2011/12/29 15:01:27 [2798] File list size: 130356
+2011/12/29 15:01:27 [2798] File list generation time: 0.026 seconds
+2011/12/29 15:01:27 [2798] File list transfer time: 0.000 seconds
+2011/12/29 15:01:27 [2798] Total bytes sent: 924
+2011/12/29 15:01:27 [2798] Total bytes received: 133334
+2011/12/29 15:01:27 [2798] sent 924 bytes  received 133334 bytes  14132.42 bytes/sec
+2011/12/29 15:01:27 [2798] total size is 826082227  speedup is 6152.95
+-------- Done
+jeu. déc. 29 15:01:27 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+Thu Dec 29 15:01:39 2011 Normal: Rsyncing list
+/Projets/Charentes Alliance
+/Projets/ORPI/ORPI - Created resources - Google Apps - Users - Orgs membership - All.csv
+/Projets/ORPI/ORPI - Created resources - Google Apps.ods
+/Projets/ORPI/verification_fwd.log
+/Projets/Teralibris
+/Projets/Teralibris/image_preview.jpg
+/Projets/Teralibris/image_preview_red.jpg
+sending incremental file list
+
+sent 851 bytes  received 18 bytes  347.60 bytes/sec
+total size is 2549493  speedup is 2933.82
+Thu Dec 29 15:01:41 2011 Normal: Finished a list = 0
+Thu Dec 29 15:01:41 2011 Normal: Deleting list
+/media/DATA/SERGIO-PC/Professionel//Projets/Charentes Alliance/0538_001.pdf
+Thu Dec 29 15:01:42 2011 Normal: Finished a list = 0
+Thu Dec 29 15:01:42 2011 Normal: Rsyncing list
+/Projets/Charentes Alliance
+sending incremental file list
+
+sent 566 bytes  received 16 bytes  232.80 bytes/sec
+total size is 1702107  speedup is 2924.58
+Thu Dec 29 15:01:44 2011 Normal: Finished a list = 0
+Thu Dec 29 15:10:48 2011 Normal: Rsyncing list
+/Projets/Charentes Alliance/0538_001.pdf
+sending incremental file list
+Projets/Charentes Alliance/
+Projets/Charentes Alliance/0538_001.pdf
+
+sent 215132 bytes  received 36 bytes  61476.57 bytes/sec
+total size is 214936  speedup is 1.00
+Thu Dec 29 15:10:52 2011 Normal: Finished a list = 0
+jeu. déc. 29 15:12:56 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:12:56 2011 Cron: found 0 running helenasync processes
+jeu. déc. 29 15:12:56 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:12:56 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ -> /home/fullbright/scripts/
+2011/12/29 15:12:57 [2997] receiving file list
+2011/12/29 15:12:58 [3000] Number of files: 64
+2011/12/29 15:12:58 [3000] Number of files transferred: 0
+2011/12/29 15:12:58 [3000] Total file size: 5891582 bytes
+2011/12/29 15:12:58 [3000] Total transferred file size: 0 bytes
+2011/12/29 15:12:58 [3000] Literal data: 0 bytes
+2011/12/29 15:12:58 [3000] Matched data: 0 bytes
+2011/12/29 15:12:58 [3000] File list size: 1276
+2011/12/29 15:12:58 [3000] File list generation time: 0.001 seconds
+2011/12/29 15:12:58 [3000] File list transfer time: 0.000 seconds
+2011/12/29 15:12:58 [3000] Total bytes sent: 60
+2011/12/29 15:12:58 [3000] Total bytes received: 1332
+2011/12/29 15:12:58 [3000] sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+2011/12/29 15:12:58 [3000] total size is 5891582  speedup is 4232.46
+-------- Done
+jeu. déc. 29 15:12:58 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 15:13:03 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:13:03 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/home/sergio/mydropbox/ -> /home/fullbright/mydropbox/
+2011/12/29 15:13:04 [3042] receiving file list
+2011/12/29 15:13:05 [3045] Number of files: 2665
+2011/12/29 15:13:05 [3045] Number of files transferred: 0
+2011/12/29 15:13:05 [3045] Total file size: 2396419524 bytes
+2011/12/29 15:13:05 [3045] Total transferred file size: 0 bytes
+2011/12/29 15:13:05 [3045] Literal data: 0 bytes
+2011/12/29 15:13:05 [3045] Matched data: 0 bytes
+2011/12/29 15:13:05 [3045] File list size: 58778
+2011/12/29 15:13:05 [3045] File list generation time: 0.002 seconds
+2011/12/29 15:13:05 [3045] File list transfer time: 0.000 seconds
+2011/12/29 15:13:05 [3045] Total bytes sent: 262
+2011/12/29 15:13:05 [3045] Total bytes received: 59604
+2011/12/29 15:13:05 [3045] sent 262 bytes  received 59604 bytes  23946.40 bytes/sec
+2011/12/29 15:13:05 [3045] total size is 2396419524  speedup is 40029.73
+-------- Done
+jeu. déc. 29 15:13:05 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 15:13:10 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:13:10 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ -> /home/fullbright/Documents/Personnel/documents/
+2011/12/29 15:13:12 [3082] receiving file list
+2011/12/29 15:13:13 [3085] Number of files: 3773
+2011/12/29 15:13:13 [3085] Number of files transferred: 0
+2011/12/29 15:13:13 [3085] Total file size: 3139901166 bytes
+2011/12/29 15:13:13 [3085] Total transferred file size: 0 bytes
+2011/12/29 15:13:13 [3085] Literal data: 0 bytes
+2011/12/29 15:13:13 [3085] Matched data: 0 bytes
+2011/12/29 15:13:13 [3085] File list size: 100368
+2011/12/29 15:13:13 [3085] File list generation time: 0.003 seconds
+2011/12/29 15:13:13 [3085] File list transfer time: 0.000 seconds
+2011/12/29 15:13:13 [3085] Total bytes sent: 334
+2011/12/29 15:13:13 [3085] Total bytes received: 101418
+2011/12/29 15:13:13 [3085] sent 334 bytes  received 101418 bytes  29072.00 bytes/sec
+2011/12/29 15:13:13 [3085] total size is 3139901166  speedup is 30858.37
+-------- Done
+jeu. déc. 29 15:13:13 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 15:13:18 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:13:18 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ -> /home/fullbright/Documents/Professionnel/
+2011/12/29 15:13:20 [3124] receiving file list
+2011/12/29 15:13:21 [3128] Number of files: 6204
+2011/12/29 15:13:21 [3128] Number of files transferred: 0
+2011/12/29 15:13:21 [3128] Total file size: 826297163 bytes
+2011/12/29 15:13:21 [3128] Total transferred file size: 0 bytes
+2011/12/29 15:13:21 [3128] Literal data: 0 bytes
+2011/12/29 15:13:21 [3128] Matched data: 0 bytes
+2011/12/29 15:13:21 [3128] File list size: 130378
+2011/12/29 15:13:21 [3128] File list generation time: 0.001 seconds
+2011/12/29 15:13:21 [3128] File list transfer time: 0.000 seconds
+2011/12/29 15:13:21 [3128] Total bytes sent: 906
+2011/12/29 15:13:21 [3128] Total bytes received: 133338
+2011/12/29 15:13:21 [3128] sent 906 bytes  received 133338 bytes  38355.43 bytes/sec
+2011/12/29 15:13:21 [3128] total size is 826297163  speedup is 6155.19
+-------- Done
+jeu. déc. 29 15:13:21 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+Thu Dec 29 15:13:36 2011 Normal: Rsyncing list
+/Projets/Charentes Alliance/0538_001.pdf
+sending incremental file list
+
+sent 126 bytes  received 14 bytes  93.33 bytes/sec
+total size is 214936  speedup is 1535.26
+Thu Dec 29 15:13:37 2011 Normal: Finished a list = 0
+jeu. déc. 29 15:14:00 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:14:00 2011 Cron: found 0 running helenasync processes
+jeu. déc. 29 15:14:00 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:14:00 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ -> /home/fullbright/scripts/
+2011/12/29 15:14:01 [3190] receiving file list
+2011/12/29 15:14:01 [3193] Number of files: 64
+2011/12/29 15:14:01 [3193] Number of files transferred: 0
+2011/12/29 15:14:01 [3193] Total file size: 5891582 bytes
+2011/12/29 15:14:01 [3193] Total transferred file size: 0 bytes
+2011/12/29 15:14:01 [3193] Literal data: 0 bytes
+2011/12/29 15:14:01 [3193] Matched data: 0 bytes
+2011/12/29 15:14:01 [3193] File list size: 1276
+2011/12/29 15:14:01 [3193] File list generation time: 0.001 seconds
+2011/12/29 15:14:01 [3193] File list transfer time: 0.000 seconds
+2011/12/29 15:14:01 [3193] Total bytes sent: 60
+2011/12/29 15:14:01 [3193] Total bytes received: 1332
+2011/12/29 15:14:01 [3193] sent 60 bytes  received 1332 bytes  928.00 bytes/sec
+2011/12/29 15:14:01 [3193] total size is 5891582  speedup is 4232.46
+-------- Done
+jeu. déc. 29 15:14:02 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 15:14:07 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:14:07 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/home/sergio/mydropbox/ -> /home/fullbright/mydropbox/
+2011/12/29 15:14:08 [3231] receiving file list
+2011/12/29 15:14:09 [3234] Number of files: 2665
+2011/12/29 15:14:09 [3234] Number of files transferred: 0
+2011/12/29 15:14:09 [3234] Total file size: 2396419524 bytes
+2011/12/29 15:14:09 [3234] Total transferred file size: 0 bytes
+2011/12/29 15:14:09 [3234] Literal data: 0 bytes
+2011/12/29 15:14:09 [3234] Matched data: 0 bytes
+2011/12/29 15:14:09 [3234] File list size: 58778
+2011/12/29 15:14:09 [3234] File list generation time: 0.002 seconds
+2011/12/29 15:14:09 [3234] File list transfer time: 0.000 seconds
+2011/12/29 15:14:09 [3234] Total bytes sent: 262
+2011/12/29 15:14:09 [3234] Total bytes received: 59604
+2011/12/29 15:14:09 [3234] sent 262 bytes  received 59604 bytes  23946.40 bytes/sec
+2011/12/29 15:14:09 [3234] total size is 2396419524  speedup is 40029.73
+-------- Done
+jeu. déc. 29 15:14:09 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 15:14:14 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:14:14 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ -> /home/fullbright/Documents/Personnel/documents/
+2011/12/29 15:14:16 [3271] receiving file list
+2011/12/29 15:14:17 [3274] Number of files: 3773
+2011/12/29 15:14:17 [3274] Number of files transferred: 0
+2011/12/29 15:14:17 [3274] Total file size: 3139901166 bytes
+2011/12/29 15:14:17 [3274] Total transferred file size: 0 bytes
+2011/12/29 15:14:17 [3274] Literal data: 0 bytes
+2011/12/29 15:14:17 [3274] Matched data: 0 bytes
+2011/12/29 15:14:17 [3274] File list size: 100368
+2011/12/29 15:14:17 [3274] File list generation time: 0.003 seconds
+2011/12/29 15:14:17 [3274] File list transfer time: 0.000 seconds
+2011/12/29 15:14:17 [3274] Total bytes sent: 334
+2011/12/29 15:14:17 [3274] Total bytes received: 101418
+2011/12/29 15:14:17 [3274] sent 334 bytes  received 101418 bytes  29072.00 bytes/sec
+2011/12/29 15:14:17 [3274] total size is 3139901166  speedup is 30858.37
+-------- Done
+jeu. déc. 29 15:14:17 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 15:14:22 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:14:22 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ -> /home/fullbright/Documents/Professionnel/
+2011/12/29 15:14:23 [3311] receiving file list
+2011/12/29 15:14:25 [3314] Number of files: 6204
+2011/12/29 15:14:25 [3314] Number of files transferred: 0
+2011/12/29 15:14:25 [3314] Total file size: 826297163 bytes
+2011/12/29 15:14:25 [3314] Total transferred file size: 0 bytes
+2011/12/29 15:14:25 [3314] Literal data: 0 bytes
+2011/12/29 15:14:25 [3314] Matched data: 0 bytes
+2011/12/29 15:14:25 [3314] File list size: 130378
+2011/12/29 15:14:25 [3314] File list generation time: 0.001 seconds
+2011/12/29 15:14:25 [3314] File list transfer time: 0.000 seconds
+2011/12/29 15:14:25 [3314] Total bytes sent: 901
+2011/12/29 15:14:25 [3314] Total bytes received: 133333
+2011/12/29 15:14:25 [3314] sent 901 bytes  received 133333 bytes  38352.57 bytes/sec
+2011/12/29 15:14:25 [3314] total size is 826297163  speedup is 6155.65
+-------- Done
+jeu. déc. 29 15:14:25 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 15:17:02 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:17:02 2011 Cron: found 0 running helenasync processes
+jeu. déc. 29 15:17:02 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:17:02 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ -> /home/fullbright/scripts/
+2011/12/29 15:17:04 [3381] receiving file list
+2011/12/29 15:17:04 [3384] Number of files: 64
+2011/12/29 15:17:04 [3384] Number of files transferred: 0
+2011/12/29 15:17:04 [3384] Total file size: 5891582 bytes
+2011/12/29 15:17:04 [3384] Total transferred file size: 0 bytes
+2011/12/29 15:17:04 [3384] Literal data: 0 bytes
+2011/12/29 15:17:04 [3384] Matched data: 0 bytes
+2011/12/29 15:17:04 [3384] File list size: 1276
+2011/12/29 15:17:04 [3384] File list generation time: 0.001 seconds
+2011/12/29 15:17:04 [3384] File list transfer time: 0.000 seconds
+2011/12/29 15:17:04 [3384] Total bytes sent: 60
+2011/12/29 15:17:04 [3384] Total bytes received: 1332
+2011/12/29 15:17:04 [3384] sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+2011/12/29 15:17:04 [3384] total size is 5891582  speedup is 4232.46
+-------- Done
+jeu. déc. 29 15:17:04 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 15:17:09 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:17:09 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/home/sergio/mydropbox/ -> /home/fullbright/mydropbox/
+2011/12/29 15:17:11 [3421] receiving file list
+2011/12/29 15:17:12 [3424] Number of files: 2665
+2011/12/29 15:17:12 [3424] Number of files transferred: 0
+2011/12/29 15:17:12 [3424] Total file size: 2396419524 bytes
+2011/12/29 15:17:12 [3424] Total transferred file size: 0 bytes
+2011/12/29 15:17:12 [3424] Literal data: 0 bytes
+2011/12/29 15:17:12 [3424] Matched data: 0 bytes
+2011/12/29 15:17:12 [3424] File list size: 58778
+2011/12/29 15:17:12 [3424] File list generation time: 0.002 seconds
+2011/12/29 15:17:12 [3424] File list transfer time: 0.000 seconds
+2011/12/29 15:17:12 [3424] Total bytes sent: 262
+2011/12/29 15:17:12 [3424] Total bytes received: 59604
+2011/12/29 15:17:12 [3424] sent 262 bytes  received 59604 bytes  17104.57 bytes/sec
+2011/12/29 15:17:12 [3424] total size is 2396419524  speedup is 40029.73
+-------- Done
+jeu. déc. 29 15:17:12 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 15:17:17 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:17:17 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ -> /home/fullbright/Documents/Personnel/documents/
+2011/12/29 15:17:18 [3461] receiving file list
+2011/12/29 15:17:19 [3464] Number of files: 3773
+2011/12/29 15:17:19 [3464] Number of files transferred: 0
+2011/12/29 15:17:19 [3464] Total file size: 3139901166 bytes
+2011/12/29 15:17:19 [3464] Total transferred file size: 0 bytes
+2011/12/29 15:17:19 [3464] Literal data: 0 bytes
+2011/12/29 15:17:19 [3464] Matched data: 0 bytes
+2011/12/29 15:17:19 [3464] File list size: 100368
+2011/12/29 15:17:19 [3464] File list generation time: 0.003 seconds
+2011/12/29 15:17:19 [3464] File list transfer time: 0.000 seconds
+2011/12/29 15:17:19 [3464] Total bytes sent: 334
+2011/12/29 15:17:19 [3464] Total bytes received: 101418
+2011/12/29 15:17:19 [3464] sent 334 bytes  received 101418 bytes  40700.80 bytes/sec
+2011/12/29 15:17:19 [3464] total size is 3139901166  speedup is 30858.37
+-------- Done
+jeu. déc. 29 15:17:20 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 15:17:25 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:17:25 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ -> /home/fullbright/Documents/Professionnel/
+2011/12/29 15:17:26 [3503] receiving file list
+2011/12/29 15:17:28 [3506] Number of files: 6204
+2011/12/29 15:17:28 [3506] Number of files transferred: 0
+2011/12/29 15:17:28 [3506] Total file size: 826297163 bytes
+2011/12/29 15:17:28 [3506] Total transferred file size: 0 bytes
+2011/12/29 15:17:28 [3506] Literal data: 0 bytes
+2011/12/29 15:17:28 [3506] Matched data: 0 bytes
+2011/12/29 15:17:28 [3506] File list size: 130378
+2011/12/29 15:17:28 [3506] File list generation time: 0.001 seconds
+2011/12/29 15:17:28 [3506] File list transfer time: 0.000 seconds
+2011/12/29 15:17:28 [3506] Total bytes sent: 901
+2011/12/29 15:17:28 [3506] Total bytes received: 133333
+2011/12/29 15:17:28 [3506] sent 901 bytes  received 133333 bytes  38352.57 bytes/sec
+2011/12/29 15:17:28 [3506] total size is 826297163  speedup is 6155.65
+-------- Done
+jeu. déc. 29 15:17:28 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+Retrieving data from servers
+jeu. déc. 29 15:33:24 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:33:24 2011 Cron: found 0 running helenasync processes
+-------- RETRIEVING UPDATES FROM SERVER -------
+jeu. déc. 29 15:33:24 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:33:24 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ -> /home/fullbright/scripts/
+2011/12/29 15:33:26 [3708] receiving file list
+receiving incremental file list
+
+2011/12/29 15:33:26 [3711] Number of files: 64
+Number of files: 64
+2011/12/29 15:33:26 [3711] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/29 15:33:26 [3711] Total file size: 5891582 bytes
+Total file size: 5891582 bytes
+2011/12/29 15:33:26 [3711] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/29 15:33:26 [3711] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/29 15:33:26 [3711] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/29 15:33:26 [3711] File list size: 1276
+File list size: 1276
+2011/12/29 15:33:26 [3711] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/29 15:33:26 [3711] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/29 15:33:26 [3711] Total bytes sent: 60
+Total bytes sent: 60
+2011/12/29 15:33:26 [3711] Total bytes received: 1332
+Total bytes received: 1332
+
+2011/12/29 15:33:26 [3711] sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+2011/12/29 15:33:26 [3711] total size is 5891582  speedup is 4232.46
+total size is 5891582  speedup is 4232.46
+-------- Done
+jeu. déc. 29 15:33:26 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 15:33:32 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:33:32 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/home/sergio/mydropbox/ -> /home/fullbright/mydropbox/
+2011/12/29 15:33:33 [3749] receiving file list
+receiving incremental file list
+
+2011/12/29 15:33:34 [3752] Number of files: 2665
+Number of files: 2665
+2011/12/29 15:33:34 [3752] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/29 15:33:34 [3752] Total file size: 2396419524 bytes
+Total file size: 2396419524 bytes
+2011/12/29 15:33:34 [3752] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/29 15:33:34 [3752] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/29 15:33:34 [3752] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/29 15:33:34 [3752] File list size: 58778
+File list size: 58778
+2011/12/29 15:33:34 [3752] File list generation time: 0.002 seconds
+File list generation time: 0.002 seconds
+2011/12/29 15:33:34 [3752] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/29 15:33:34 [3752] Total bytes sent: 262
+Total bytes sent: 262
+2011/12/29 15:33:34 [3752] Total bytes received: 59604
+Total bytes received: 59604
+
+2011/12/29 15:33:34 [3752] sent 262 bytes  received 59604 bytes  23946.40 bytes/sec
+sent 262 bytes  received 59604 bytes  23946.40 bytes/sec
+2011/12/29 15:33:34 [3752] total size is 2396419524  speedup is 40029.73
+total size is 2396419524  speedup is 40029.73
+-------- Done
+jeu. déc. 29 15:33:34 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 15:33:39 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:33:39 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ -> /home/fullbright/Documents/Personnel/documents/
+2011/12/29 15:33:41 [3789] receiving file list
+receiving incremental file list
+
+2011/12/29 15:33:42 [3796] Number of files: 3773
+Number of files: 3773
+2011/12/29 15:33:42 [3796] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/29 15:33:42 [3796] Total file size: 3139901166 bytes
+Total file size: 3139901166 bytes
+2011/12/29 15:33:42 [3796] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/29 15:33:42 [3796] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/29 15:33:42 [3796] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/29 15:33:42 [3796] File list size: 100368
+File list size: 100368
+2011/12/29 15:33:42 [3796] File list generation time: 0.003 seconds
+File list generation time: 0.003 seconds
+2011/12/29 15:33:42 [3796] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/29 15:33:42 [3796] Total bytes sent: 334
+Total bytes sent: 334
+2011/12/29 15:33:42 [3796] Total bytes received: 101418
+Total bytes received: 101418
+
+2011/12/29 15:33:42 [3796] sent 334 bytes  received 101418 bytes  29072.00 bytes/sec
+sent 334 bytes  received 101418 bytes  29072.00 bytes/sec
+2011/12/29 15:33:42 [3796] total size is 3139901166  speedup is 30858.37
+total size is 3139901166  speedup is 30858.37
+-------- Done
+jeu. déc. 29 15:33:42 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 15:33:47 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 15:33:47 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ -> /home/fullbright/Documents/Professionnel/
+2011/12/29 15:33:49 [3833] receiving file list
+receiving incremental file list
+
+2011/12/29 15:33:50 [3841] Number of files: 6204
+Number of files: 6204
+2011/12/29 15:33:50 [3841] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/29 15:33:50 [3841] Total file size: 826297163 bytes
+Total file size: 826297163 bytes
+2011/12/29 15:33:50 [3841] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/29 15:33:50 [3841] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/29 15:33:50 [3841] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/29 15:33:50 [3841] File list size: 130378
+File list size: 130378
+2011/12/29 15:33:50 [3841] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/29 15:33:50 [3841] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/29 15:33:50 [3841] Total bytes sent: 901
+Total bytes sent: 901
+2011/12/29 15:33:50 [3841] Total bytes received: 133333
+Total bytes received: 133333
+
+2011/12/29 15:33:50 [3841] sent 901 bytes  received 133333 bytes  38352.57 bytes/sec
+sent 901 bytes  received 133333 bytes  38352.57 bytes/sec
+2011/12/29 15:33:50 [3841] total size is 826297163  speedup is 6155.65
+total size is 826297163  speedup is 6155.65
+-------- Done
+jeu. déc. 29 15:33:50 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+------------------ END ------------------------
+Done.
+Going to sleep 2400 seconds
+Thu Dec 29 15:59:34 2011 Normal: Rsyncing list
+/Developpement
+/Developpement/.metadata
+/Developpement/.metadata/.lock
+/Developpement/.metadata/version.ini
+/Developpement/.metadata/.plugins
+/Developpement/.metadata/.plugins/org.eclipse.core.resources
+/Developpement/.metadata/.plugins/org.eclipse.core.resources/.root
+/Developpement/.metadata/.plugins/org.eclipse.core.resources/.safetable
+/Developpement/.metadata/.plugins/org.eclipse.ui.workbench
+/Developpement/.metadata/.mylyn
+/Developpement/.metadata/.plugins/org.eclipse.mylyn.bugzilla.core
+/Developpement/.metadata/.plugins/org.eclipse.mylyn.tasks.ui
+/Developpement/.metadata/.mylyn/contexts
+/Developpement/.metadata/.plugins/org.eclipse.core.runtime
+/Developpement/.metadata/.plugins/org.eclipse.core.runtime/.settings
+/Developpement/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs
+/Developpement/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs
+/Developpement/.metadata/.plugins/org.eclipse.jdt.core
+/Developpement/.metadata/.plugins/org.eclipse.jdt.ui
+/Developpement/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+/Developpement/.metadata/.plugins/org.python.pydev
+/Developpement/.metadata/.plugins/org.python.pydev/ping.log
+/Developpement/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs
+sending incremental file list
+Developpement/
+Developpement/.metadata/
+Developpement/.metadata/.lock
+Developpement/.metadata/version.ini
+Developpement/.metadata/.mylyn/
+Developpement/.metadata/.mylyn/contexts/
+Developpement/.metadata/.plugins/
+Developpement/.metadata/.plugins/org.eclipse.core.resources/
+Developpement/.metadata/.plugins/org.eclipse.core.resources/.root/
+Developpement/.metadata/.plugins/org.eclipse.core.resources/.safetable/
+Developpement/.metadata/.plugins/org.eclipse.core.runtime/
+Developpement/.metadata/.plugins/org.eclipse.core.runtime/.settings/
+Developpement/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+Developpement/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs
+Developpement/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs
+Developpement/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs
+Developpement/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+Developpement/.metadata/.plugins/org.eclipse.jdt.core/
+Developpement/.metadata/.plugins/org.eclipse.jdt.ui/
+Developpement/.metadata/.plugins/org.eclipse.mylyn.bugzilla.core/
+Developpement/.metadata/.plugins/org.eclipse.mylyn.tasks.ui/
+Developpement/.metadata/.plugins/org.eclipse.ui.workbench/
+Developpement/.metadata/.plugins/org.python.pydev/
+Developpement/.metadata/.plugins/org.python.pydev/ping.log
+
+sent 2478 bytes  received 228 bytes  1082.40 bytes/sec
+total size is 1676  speedup is 0.62
+Thu Dec 29 15:59:36 2011 Normal: Finished a list = 0
+Thu Dec 29 15:59:50 2011 Normal: Rsyncing list
+/Developpement/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+/Developpement/.metadata/.plugins/org.eclipse.ui.intro
+/Developpement/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes
+/Developpement/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+/Developpement/.metadata/.plugins/org.eclipse.team.cvs.core
+/Developpement/.metadata/.plugins/org.eclipse.team.cvs.core/.running
+/Developpement/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.usagedata.recording.prefs
+/Developpement/.metadata/.plugins/org.eclipse.epp.usagedata.recording
+/Developpement/.metadata/.plugins/org.eclipse.epp.usagedata.recording/usagedata.csv
+sending incremental file list
+Developpement/
+Developpement/.metadata/
+Developpement/.metadata/.plugins/
+Developpement/.metadata/.plugins/org.eclipse.core.resources/
+Developpement/.metadata/.plugins/org.eclipse.core.resources/.root/
+Developpement/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/
+Developpement/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+Developpement/.metadata/.plugins/org.eclipse.core.runtime/
+Developpement/.metadata/.plugins/org.eclipse.core.runtime/.settings/
+Developpement/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.usagedata.recording.prefs
+Developpement/.metadata/.plugins/org.eclipse.epp.usagedata.recording/
+Developpement/.metadata/.plugins/org.eclipse.epp.usagedata.recording/usagedata.csv
+Developpement/.metadata/.plugins/org.eclipse.team.cvs.core/
+Developpement/.metadata/.plugins/org.eclipse.team.cvs.core/.running
+Developpement/.metadata/.plugins/org.eclipse.ui.intro/
+
+sent 11269 bytes  received 135 bytes  4561.60 bytes/sec
+total size is 20864  speedup is 1.83
+Thu Dec 29 15:59:52 2011 Normal: Finished a list = 0
+Thu Dec 29 16:01:15 2011 Normal: Rsyncing list
+/Developpement/.metadata/.mylyn/repositories.xml.zip
+sending incremental file list
+Developpement/
+Developpement/.metadata/
+Developpement/.metadata/.mylyn/
+Developpement/.metadata/.mylyn/repositories.xml.zip
+
+sent 640 bytes  received 43 bytes  273.20 bytes/sec
+total size is 435  speedup is 0.64
+Thu Dec 29 16:01:17 2011 Normal: Finished a list = 0
+Retrieving data from servers
+jeu. déc. 29 16:13:56 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 16:13:56 2011 Cron: found 0 running helenasync processes
+-------- RETRIEVING UPDATES FROM SERVER -------
+jeu. déc. 29 16:13:56 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 16:13:56 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ -> /home/fullbright/scripts/
+2011/12/29 16:13:58 [4385] receiving file list
+receiving incremental file list
+
+2011/12/29 16:13:58 [4388] Number of files: 64
+Number of files: 64
+2011/12/29 16:13:58 [4388] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/29 16:13:58 [4388] Total file size: 5891582 bytes
+Total file size: 5891582 bytes
+2011/12/29 16:13:58 [4388] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/29 16:13:58 [4388] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/29 16:13:58 [4388] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/29 16:13:58 [4388] File list size: 1276
+File list size: 1276
+2011/12/29 16:13:58 [4388] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/29 16:13:58 [4388] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/29 16:13:58 [4388] Total bytes sent: 60
+Total bytes sent: 60
+2011/12/29 16:13:58 [4388] Total bytes received: 1332
+Total bytes received: 1332
+
+2011/12/29 16:13:58 [4388] sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+2011/12/29 16:13:58 [4388] total size is 5891582  speedup is 4232.46
+total size is 5891582  speedup is 4232.46
+-------- Done
+jeu. déc. 29 16:13:58 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 16:14:03 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 16:14:03 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/home/sergio/mydropbox/ -> /home/fullbright/mydropbox/
+2011/12/29 16:14:05 [4425] receiving file list
+receiving incremental file list
+
+2011/12/29 16:14:06 [4428] Number of files: 2665
+Number of files: 2665
+2011/12/29 16:14:06 [4428] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/29 16:14:06 [4428] Total file size: 2396419524 bytes
+Total file size: 2396419524 bytes
+2011/12/29 16:14:06 [4428] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/29 16:14:06 [4428] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/29 16:14:06 [4428] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/29 16:14:06 [4428] File list size: 58778
+File list size: 58778
+2011/12/29 16:14:06 [4428] File list generation time: 0.002 seconds
+File list generation time: 0.002 seconds
+2011/12/29 16:14:06 [4428] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/29 16:14:06 [4428] Total bytes sent: 262
+Total bytes sent: 262
+2011/12/29 16:14:06 [4428] Total bytes received: 59604
+Total bytes received: 59604
+
+2011/12/29 16:14:06 [4428] sent 262 bytes  received 59604 bytes  17104.57 bytes/sec
+sent 262 bytes  received 59604 bytes  17104.57 bytes/sec
+2011/12/29 16:14:06 [4428] total size is 2396419524  speedup is 40029.73
+total size is 2396419524  speedup is 40029.73
+-------- Done
+jeu. déc. 29 16:14:06 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 16:14:11 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 16:14:11 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ -> /home/fullbright/Documents/Personnel/documents/
+2011/12/29 16:14:12 [4475] receiving file list
+receiving incremental file list
+
+2011/12/29 16:14:14 [4478] Number of files: 3773
+Number of files: 3773
+2011/12/29 16:14:14 [4478] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/29 16:14:14 [4478] Total file size: 3139901166 bytes
+Total file size: 3139901166 bytes
+2011/12/29 16:14:14 [4478] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/29 16:14:14 [4478] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/29 16:14:14 [4478] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/29 16:14:14 [4478] File list size: 100368
+File list size: 100368
+2011/12/29 16:14:14 [4478] File list generation time: 0.003 seconds
+File list generation time: 0.003 seconds
+2011/12/29 16:14:14 [4478] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/29 16:14:14 [4478] Total bytes sent: 334
+Total bytes sent: 334
+2011/12/29 16:14:14 [4478] Total bytes received: 101418
+Total bytes received: 101418
+
+2011/12/29 16:14:14 [4478] sent 334 bytes  received 101418 bytes  29072.00 bytes/sec
+sent 334 bytes  received 101418 bytes  29072.00 bytes/sec
+2011/12/29 16:14:14 [4478] total size is 3139901166  speedup is 30858.37
+total size is 3139901166  speedup is 30858.37
+-------- Done
+jeu. déc. 29 16:14:14 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 16:14:19 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 16:14:19 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ -> /home/fullbright/Documents/Professionnel/
+2011/12/29 16:14:20 [4515] receiving file list
+receiving incremental file list
+./
+2011/12/29 16:14:21 [4518] .d..t...... ./
+Developpement/
+2011/12/29 16:14:21 [4518] .d...p..... Developpement/
+
+2011/12/29 16:14:22 [4518] Number of files: 6205
+Number of files: 6205
+2011/12/29 16:14:22 [4518] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/29 16:14:22 [4518] Total file size: 826297163 bytes
+Total file size: 826297163 bytes
+2011/12/29 16:14:22 [4518] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/29 16:14:22 [4518] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/29 16:14:22 [4518] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/29 16:14:22 [4518] File list size: 130401
+File list size: 130401
+2011/12/29 16:14:22 [4518] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/29 16:14:22 [4518] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/29 16:14:22 [4518] Total bytes sent: 908
+Total bytes sent: 908
+2011/12/29 16:14:22 [4518] Total bytes received: 133365
+Total bytes received: 133365
+
+2011/12/29 16:14:22 [4518] sent 908 bytes  received 133365 bytes  38363.71 bytes/sec
+sent 908 bytes  received 133365 bytes  38363.71 bytes/sec
+2011/12/29 16:14:22 [4518] total size is 826297163  speedup is 6153.86
+total size is 826297163  speedup is 6153.86
+-------- Done
+jeu. déc. 29 16:14:22 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+------------------ END ------------------------
+Done.
+Going to sleep 2400 seconds
+Thu Dec 29 16:14:35 2011 Normal: Rsyncing list
+/Developpement
+sending incremental file list
+Developpement/.metadata/
+Developpement/.metadata/.mylyn/
+Developpement/.metadata/.mylyn/contexts/
+Developpement/.metadata/.plugins/
+Developpement/.metadata/.plugins/org.eclipse.core.resources/
+Developpement/.metadata/.plugins/org.eclipse.core.resources/.root/
+Developpement/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/
+Developpement/.metadata/.plugins/org.eclipse.core.resources/.safetable/
+Developpement/.metadata/.plugins/org.eclipse.core.runtime/
+Developpement/.metadata/.plugins/org.eclipse.core.runtime/.settings/
+Developpement/.metadata/.plugins/org.eclipse.epp.usagedata.recording/
+Developpement/.metadata/.plugins/org.eclipse.jdt.core/
+Developpement/.metadata/.plugins/org.eclipse.jdt.ui/
+Developpement/.metadata/.plugins/org.eclipse.mylyn.bugzilla.core/
+Developpement/.metadata/.plugins/org.eclipse.mylyn.tasks.ui/
+Developpement/.metadata/.plugins/org.eclipse.team.cvs.core/
+Developpement/.metadata/.plugins/org.eclipse.ui.intro/
+Developpement/.metadata/.plugins/org.eclipse.ui.workbench/
+Developpement/.metadata/.plugins/org.python.pydev/
+
+sent 1144 bytes  received 128 bytes  508.80 bytes/sec
+total size is 11766  speedup is 9.25
+Thu Dec 29 16:14:37 2011 Normal: Finished a list = 0
+Retrieving data from servers
+jeu. déc. 29 16:54:27 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 16:54:27 2011 Cron: found 0 running helenasync processes
+-------- RETRIEVING UPDATES FROM SERVER -------
+jeu. déc. 29 16:54:27 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 16:54:27 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ -> /home/fullbright/scripts/
+2011/12/29 16:54:29 [4805] receiving file list
+receiving incremental file list
+
+2011/12/29 16:54:29 [4808] Number of files: 64
+Number of files: 64
+2011/12/29 16:54:29 [4808] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/29 16:54:29 [4808] Total file size: 5891582 bytes
+Total file size: 5891582 bytes
+2011/12/29 16:54:29 [4808] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/29 16:54:29 [4808] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/29 16:54:29 [4808] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/29 16:54:29 [4808] File list size: 1276
+File list size: 1276
+2011/12/29 16:54:29 [4808] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/29 16:54:29 [4808] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/29 16:54:29 [4808] Total bytes sent: 60
+Total bytes sent: 60
+2011/12/29 16:54:29 [4808] Total bytes received: 1332
+Total bytes received: 1332
+
+2011/12/29 16:54:29 [4808] sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+2011/12/29 16:54:29 [4808] total size is 5891582  speedup is 4232.46
+total size is 5891582  speedup is 4232.46
+-------- Done
+jeu. déc. 29 16:54:29 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 16:54:34 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 16:54:34 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/home/sergio/mydropbox/ -> /home/fullbright/mydropbox/
+2011/12/29 16:54:36 [4845] receiving file list
+receiving incremental file list
+
+2011/12/29 16:54:36 [4848] Number of files: 2665
+Number of files: 2665
+2011/12/29 16:54:36 [4848] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/29 16:54:36 [4848] Total file size: 2396419524 bytes
+Total file size: 2396419524 bytes
+2011/12/29 16:54:36 [4848] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/29 16:54:36 [4848] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/29 16:54:36 [4848] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/29 16:54:36 [4848] File list size: 58778
+File list size: 58778
+2011/12/29 16:54:36 [4848] File list generation time: 0.002 seconds
+File list generation time: 0.002 seconds
+2011/12/29 16:54:36 [4848] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/29 16:54:36 [4848] Total bytes sent: 262
+Total bytes sent: 262
+2011/12/29 16:54:36 [4848] Total bytes received: 59604
+Total bytes received: 59604
+
+2011/12/29 16:54:36 [4848] sent 262 bytes  received 59604 bytes  23946.40 bytes/sec
+sent 262 bytes  received 59604 bytes  23946.40 bytes/sec
+2011/12/29 16:54:36 [4848] total size is 2396419524  speedup is 40029.73
+total size is 2396419524  speedup is 40029.73
+-------- Done
+jeu. déc. 29 16:54:36 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 16:54:42 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 16:54:42 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ -> /home/fullbright/Documents/Personnel/documents/
+2011/12/29 16:54:43 [4885] receiving file list
+receiving incremental file list
+
+2011/12/29 16:54:44 [4888] Number of files: 3773
+Number of files: 3773
+2011/12/29 16:54:44 [4888] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/29 16:54:44 [4888] Total file size: 3139901166 bytes
+Total file size: 3139901166 bytes
+2011/12/29 16:54:44 [4888] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/29 16:54:44 [4888] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/29 16:54:44 [4888] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/29 16:54:44 [4888] File list size: 100368
+File list size: 100368
+2011/12/29 16:54:44 [4888] File list generation time: 0.003 seconds
+File list generation time: 0.003 seconds
+2011/12/29 16:54:44 [4888] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/29 16:54:44 [4888] Total bytes sent: 334
+Total bytes sent: 334
+2011/12/29 16:54:44 [4888] Total bytes received: 101418
+Total bytes received: 101418
+
+2011/12/29 16:54:44 [4888] sent 334 bytes  received 101418 bytes  40700.80 bytes/sec
+sent 334 bytes  received 101418 bytes  40700.80 bytes/sec
+2011/12/29 16:54:44 [4888] total size is 3139901166  speedup is 30858.37
+total size is 3139901166  speedup is 30858.37
+-------- Done
+jeu. déc. 29 16:54:44 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 16:54:49 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 16:54:49 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ -> /home/fullbright/Documents/Professionnel/
+2011/12/29 16:54:51 [4926] receiving file list
+receiving incremental file list
+
+2011/12/29 16:54:53 [4929] Number of files: 6205
+Number of files: 6205
+2011/12/29 16:54:53 [4929] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/29 16:54:53 [4929] Total file size: 826297163 bytes
+Total file size: 826297163 bytes
+2011/12/29 16:54:53 [4929] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/29 16:54:53 [4929] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/29 16:54:53 [4929] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/29 16:54:53 [4929] File list size: 130401
+File list size: 130401
+2011/12/29 16:54:53 [4929] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/29 16:54:53 [4929] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/29 16:54:53 [4929] Total bytes sent: 902
+Total bytes sent: 902
+2011/12/29 16:54:53 [4929] Total bytes received: 133359
+Total bytes received: 133359
+
+2011/12/29 16:54:53 [4929] sent 902 bytes  received 133359 bytes  29835.78 bytes/sec
+sent 902 bytes  received 133359 bytes  29835.78 bytes/sec
+2011/12/29 16:54:53 [4929] total size is 826297163  speedup is 6154.41
+total size is 826297163  speedup is 6154.41
+-------- Done
+jeu. déc. 29 16:54:53 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+------------------ END ------------------------
+Done.
+Going to sleep 2400 seconds
+Retrieving data from servers
+jeu. déc. 29 17:34:58 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 17:34:58 2011 Cron: found 0 running helenasync processes
+-------- RETRIEVING UPDATES FROM SERVER -------
+jeu. déc. 29 17:34:58 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 17:34:58 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ -> /home/fullbright/scripts/
+2011/12/29 17:34:59 [5272] receiving file list
+receiving incremental file list
+
+2011/12/29 17:35:00 [5275] Number of files: 64
+Number of files: 64
+2011/12/29 17:35:00 [5275] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/29 17:35:00 [5275] Total file size: 5891582 bytes
+Total file size: 5891582 bytes
+2011/12/29 17:35:00 [5275] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/29 17:35:00 [5275] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/29 17:35:00 [5275] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/29 17:35:00 [5275] File list size: 1276
+File list size: 1276
+2011/12/29 17:35:00 [5275] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/29 17:35:00 [5275] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/29 17:35:00 [5275] Total bytes sent: 60
+Total bytes sent: 60
+2011/12/29 17:35:00 [5275] Total bytes received: 1332
+Total bytes received: 1332
+
+2011/12/29 17:35:00 [5275] sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+2011/12/29 17:35:00 [5275] total size is 5891582  speedup is 4232.46
+total size is 5891582  speedup is 4232.46
+-------- Done
+jeu. déc. 29 17:35:00 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 17:35:05 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 17:35:05 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/home/sergio/mydropbox/ -> /home/fullbright/mydropbox/
+2011/12/29 17:35:06 [5313] receiving file list
+receiving incremental file list
+
+2011/12/29 17:35:07 [5316] Number of files: 2665
+Number of files: 2665
+2011/12/29 17:35:07 [5316] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/29 17:35:07 [5316] Total file size: 2396419524 bytes
+Total file size: 2396419524 bytes
+2011/12/29 17:35:07 [5316] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/29 17:35:07 [5316] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/29 17:35:07 [5316] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/29 17:35:07 [5316] File list size: 58778
+File list size: 58778
+2011/12/29 17:35:07 [5316] File list generation time: 0.002 seconds
+File list generation time: 0.002 seconds
+2011/12/29 17:35:07 [5316] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/29 17:35:07 [5316] Total bytes sent: 262
+Total bytes sent: 262
+2011/12/29 17:35:07 [5316] Total bytes received: 59604
+Total bytes received: 59604
+
+2011/12/29 17:35:07 [5316] sent 262 bytes  received 59604 bytes  23946.40 bytes/sec
+sent 262 bytes  received 59604 bytes  23946.40 bytes/sec
+2011/12/29 17:35:07 [5316] total size is 2396419524  speedup is 40029.73
+total size is 2396419524  speedup is 40029.73
+-------- Done
+jeu. déc. 29 17:35:07 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 17:35:12 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 17:35:12 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ -> /home/fullbright/Documents/Personnel/documents/
+2011/12/29 17:35:14 [5355] receiving file list
+receiving incremental file list
+
+2011/12/29 17:35:15 [5361] Number of files: 3773
+Number of files: 3773
+2011/12/29 17:35:15 [5361] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/29 17:35:15 [5361] Total file size: 3139901166 bytes
+Total file size: 3139901166 bytes
+2011/12/29 17:35:15 [5361] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/29 17:35:15 [5361] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/29 17:35:15 [5361] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/29 17:35:15 [5361] File list size: 100368
+File list size: 100368
+2011/12/29 17:35:15 [5361] File list generation time: 0.003 seconds
+File list generation time: 0.003 seconds
+2011/12/29 17:35:15 [5361] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/29 17:35:15 [5361] Total bytes sent: 334
+Total bytes sent: 334
+2011/12/29 17:35:15 [5361] Total bytes received: 101418
+Total bytes received: 101418
+
+2011/12/29 17:35:15 [5361] sent 334 bytes  received 101418 bytes  29072.00 bytes/sec
+sent 334 bytes  received 101418 bytes  29072.00 bytes/sec
+2011/12/29 17:35:15 [5361] total size is 3139901166  speedup is 30858.37
+total size is 3139901166  speedup is 30858.37
+-------- Done
+jeu. déc. 29 17:35:15 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+jeu. déc. 29 17:35:20 2011 Cron: checking for running lipsync processes
+jeu. déc. 29 17:35:20 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ -> /home/fullbright/Documents/Professionnel/
+2011/12/29 17:35:22 [5398] receiving file list
+receiving incremental file list
+
+2011/12/29 17:35:23 [5401] Number of files: 6205
+Number of files: 6205
+2011/12/29 17:35:23 [5401] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/29 17:35:23 [5401] Total file size: 826297163 bytes
+Total file size: 826297163 bytes
+2011/12/29 17:35:23 [5401] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/29 17:35:23 [5401] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/29 17:35:23 [5401] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/29 17:35:23 [5401] File list size: 130401
+File list size: 130401
+2011/12/29 17:35:23 [5401] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/29 17:35:23 [5401] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/29 17:35:23 [5401] Total bytes sent: 902
+Total bytes sent: 902
+2011/12/29 17:35:23 [5401] Total bytes received: 133359
+Total bytes received: 133359
+
+2011/12/29 17:35:23 [5401] sent 902 bytes  received 133359 bytes  38360.29 bytes/sec
+sent 902 bytes  received 133359 bytes  38360.29 bytes/sec
+2011/12/29 17:35:23 [5401] total size is 826297163  speedup is 6154.41
+total size is 826297163  speedup is 6154.41
+-------- Done
+jeu. déc. 29 17:35:23 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+------------------ END ------------------------
+Done.
+Going to sleep 2400 seconds
+Thu Dec 29 18:00:38 2011 Normal: Deleting list
+/home/sergio/mydropbox//mes_comptes_sergio.gsb.FWRX6V
+Thu Dec 29 18:00:40 2011 Normal: Finished a list = 0
+Thu Dec 29 18:00:40 2011 Normal: Rsyncing list
+/mes_comptes_sergio.gsb
+sending incremental file list
+mes_comptes_sergio.gsb
+
+sent 171797 bytes  received 1363 bytes  49474.29 bytes/sec
+total size is 172358  speedup is 1.00
+Thu Dec 29 18:00:43 2011 Normal: Finished a list = 0
+Retrieving data from servers
+ven. déc. 30 09:31:41 2011 Cron: checking for running lipsync processes
+ven. déc. 30 09:31:41 2011 Cron: found 0 running helenasync processes
+-------- RETRIEVING UPDATES FROM SERVER -------
+ven. déc. 30 09:31:41 2011 Cron: checking for running lipsync processes
+ven. déc. 30 09:31:41 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ -> /home/fullbright/scripts/
+2011/12/30 09:31:44 [6820] receiving file list
+receiving incremental file list
+
+2011/12/30 09:31:45 [6823] Number of files: 64
+Number of files: 64
+2011/12/30 09:31:45 [6823] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 09:31:45 [6823] Total file size: 5891582 bytes
+Total file size: 5891582 bytes
+2011/12/30 09:31:45 [6823] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 09:31:45 [6823] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 09:31:45 [6823] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 09:31:45 [6823] File list size: 1276
+File list size: 1276
+2011/12/30 09:31:45 [6823] File list generation time: 0.005 seconds
+File list generation time: 0.005 seconds
+2011/12/30 09:31:45 [6823] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 09:31:45 [6823] Total bytes sent: 60
+Total bytes sent: 60
+2011/12/30 09:31:45 [6823] Total bytes received: 1332
+Total bytes received: 1332
+
+2011/12/30 09:31:45 [6823] sent 60 bytes  received 1332 bytes  309.33 bytes/sec
+sent 60 bytes  received 1332 bytes  309.33 bytes/sec
+2011/12/30 09:31:45 [6823] total size is 5891582  speedup is 4232.46
+total size is 5891582  speedup is 4232.46
+-------- Done
+ven. déc. 30 09:31:45 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 09:31:50 2011 Cron: checking for running lipsync processes
+ven. déc. 30 09:31:50 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/home/sergio/mydropbox/ -> /home/fullbright/mydropbox/
+2011/12/30 09:31:52 [6860] receiving file list
+receiving incremental file list
+./
+2011/12/30 09:31:52 [6863] .d..t...... ./
+
+2011/12/30 09:31:53 [6863] Number of files: 2665
+Number of files: 2665
+2011/12/30 09:31:53 [6863] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 09:31:53 [6863] Total file size: 2396436700 bytes
+Total file size: 2396436700 bytes
+2011/12/30 09:31:53 [6863] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 09:31:53 [6863] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 09:31:53 [6863] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 09:31:53 [6863] File list size: 58778
+File list size: 58778
+2011/12/30 09:31:53 [6863] File list generation time: 0.019 seconds
+File list generation time: 0.019 seconds
+2011/12/30 09:31:53 [6863] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 09:31:53 [6863] Total bytes sent: 265
+Total bytes sent: 265
+2011/12/30 09:31:53 [6863] Total bytes received: 59607
+Total bytes received: 59607
+
+2011/12/30 09:31:53 [6863] sent 265 bytes  received 59607 bytes  17106.29 bytes/sec
+sent 265 bytes  received 59607 bytes  17106.29 bytes/sec
+2011/12/30 09:31:53 [6863] total size is 2396436700  speedup is 40026.00
+total size is 2396436700  speedup is 40026.00
+-------- Done
+ven. déc. 30 09:31:53 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 09:31:58 2011 Cron: checking for running lipsync processes
+ven. déc. 30 09:31:58 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ -> /home/fullbright/Documents/Personnel/documents/
+2011/12/30 09:31:59 [6901] receiving file list
+receiving incremental file list
+
+2011/12/30 09:32:01 [6904] Number of files: 3773
+Number of files: 3773
+2011/12/30 09:32:01 [6904] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 09:32:01 [6904] Total file size: 3139901166 bytes
+Total file size: 3139901166 bytes
+2011/12/30 09:32:01 [6904] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 09:32:01 [6904] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 09:32:01 [6904] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 09:32:01 [6904] File list size: 100368
+File list size: 100368
+2011/12/30 09:32:01 [6904] File list generation time: 0.003 seconds
+File list generation time: 0.003 seconds
+2011/12/30 09:32:01 [6904] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 09:32:01 [6904] Total bytes sent: 334
+Total bytes sent: 334
+2011/12/30 09:32:01 [6904] Total bytes received: 101418
+Total bytes received: 101418
+
+2011/12/30 09:32:01 [6904] sent 334 bytes  received 101418 bytes  29072.00 bytes/sec
+sent 334 bytes  received 101418 bytes  29072.00 bytes/sec
+2011/12/30 09:32:01 [6904] total size is 3139901166  speedup is 30858.37
+total size is 3139901166  speedup is 30858.37
+-------- Done
+ven. déc. 30 09:32:01 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 09:32:06 2011 Cron: checking for running lipsync processes
+ven. déc. 30 09:32:06 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ -> /home/fullbright/Documents/Professionnel/
+2011/12/30 09:32:07 [6950] receiving file list
+receiving incremental file list
+
+2011/12/30 09:32:09 [6953] Number of files: 6205
+Number of files: 6205
+2011/12/30 09:32:09 [6953] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 09:32:09 [6953] Total file size: 826297163 bytes
+Total file size: 826297163 bytes
+2011/12/30 09:32:09 [6953] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 09:32:09 [6953] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 09:32:09 [6953] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 09:32:09 [6953] File list size: 130401
+File list size: 130401
+2011/12/30 09:32:09 [6953] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/30 09:32:09 [6953] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 09:32:09 [6953] Total bytes sent: 902
+Total bytes sent: 902
+2011/12/30 09:32:09 [6953] Total bytes received: 133359
+Total bytes received: 133359
+
+2011/12/30 09:32:09 [6953] sent 902 bytes  received 133359 bytes  38360.29 bytes/sec
+sent 902 bytes  received 133359 bytes  38360.29 bytes/sec
+2011/12/30 09:32:09 [6953] total size is 826297163  speedup is 6154.41
+total size is 826297163  speedup is 6154.41
+-------- Done
+ven. déc. 30 09:32:09 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+------------------ END ------------------------
+Done.
+Going to sleep 2400 seconds
+Retrieving data from servers
+ven. déc. 30 10:12:14 2011 Cron: checking for running lipsync processes
+ven. déc. 30 10:12:14 2011 Cron: found 0 running helenasync processes
+-------- RETRIEVING UPDATES FROM SERVER -------
+ven. déc. 30 10:12:14 2011 Cron: checking for running lipsync processes
+ven. déc. 30 10:12:14 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ -> /home/fullbright/scripts/
+2011/12/30 10:12:16 [7918] receiving file list
+receiving incremental file list
+
+2011/12/30 10:12:16 [7921] Number of files: 64
+Number of files: 64
+2011/12/30 10:12:16 [7921] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 10:12:16 [7921] Total file size: 5891582 bytes
+Total file size: 5891582 bytes
+2011/12/30 10:12:16 [7921] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 10:12:16 [7921] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 10:12:16 [7921] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 10:12:16 [7921] File list size: 1276
+File list size: 1276
+2011/12/30 10:12:16 [7921] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/30 10:12:16 [7921] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 10:12:16 [7921] Total bytes sent: 60
+Total bytes sent: 60
+2011/12/30 10:12:16 [7921] Total bytes received: 1332
+Total bytes received: 1332
+
+2011/12/30 10:12:16 [7921] sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+2011/12/30 10:12:16 [7921] total size is 5891582  speedup is 4232.46
+total size is 5891582  speedup is 4232.46
+-------- Done
+ven. déc. 30 10:12:16 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 10:12:21 2011 Cron: checking for running lipsync processes
+ven. déc. 30 10:12:21 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/home/sergio/mydropbox/ -> /home/fullbright/mydropbox/
+2011/12/30 10:12:23 [7962] receiving file list
+receiving incremental file list
+
+2011/12/30 10:12:24 [7965] Number of files: 2665
+Number of files: 2665
+2011/12/30 10:12:24 [7965] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 10:12:24 [7965] Total file size: 2396436700 bytes
+Total file size: 2396436700 bytes
+2011/12/30 10:12:24 [7965] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 10:12:24 [7965] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 10:12:24 [7965] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 10:12:24 [7965] File list size: 58778
+File list size: 58778
+2011/12/30 10:12:24 [7965] File list generation time: 0.002 seconds
+File list generation time: 0.002 seconds
+2011/12/30 10:12:24 [7965] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 10:12:24 [7965] Total bytes sent: 262
+Total bytes sent: 262
+2011/12/30 10:12:24 [7965] Total bytes received: 59604
+Total bytes received: 59604
+
+2011/12/30 10:12:24 [7965] sent 262 bytes  received 59604 bytes  17104.57 bytes/sec
+sent 262 bytes  received 59604 bytes  17104.57 bytes/sec
+2011/12/30 10:12:24 [7965] total size is 2396436700  speedup is 40030.01
+total size is 2396436700  speedup is 40030.01
+-------- Done
+ven. déc. 30 10:12:24 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 10:12:29 2011 Cron: checking for running lipsync processes
+ven. déc. 30 10:12:29 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ -> /home/fullbright/Documents/Personnel/documents/
+2011/12/30 10:12:30 [8009] receiving file list
+receiving incremental file list
+
+2011/12/30 10:12:31 [8012] Number of files: 3773
+Number of files: 3773
+2011/12/30 10:12:31 [8012] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 10:12:31 [8012] Total file size: 3139901166 bytes
+Total file size: 3139901166 bytes
+2011/12/30 10:12:31 [8012] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 10:12:31 [8012] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 10:12:31 [8012] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 10:12:31 [8012] File list size: 100368
+File list size: 100368
+2011/12/30 10:12:31 [8012] File list generation time: 0.003 seconds
+File list generation time: 0.003 seconds
+2011/12/30 10:12:31 [8012] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 10:12:31 [8012] Total bytes sent: 334
+Total bytes sent: 334
+2011/12/30 10:12:31 [8012] Total bytes received: 101418
+Total bytes received: 101418
+
+2011/12/30 10:12:31 [8012] sent 334 bytes  received 101418 bytes  40700.80 bytes/sec
+sent 334 bytes  received 101418 bytes  40700.80 bytes/sec
+2011/12/30 10:12:31 [8012] total size is 3139901166  speedup is 30858.37
+total size is 3139901166  speedup is 30858.37
+-------- Done
+ven. déc. 30 10:12:31 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 10:12:37 2011 Cron: checking for running lipsync processes
+ven. déc. 30 10:12:37 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ -> /home/fullbright/Documents/Professionnel/
+2011/12/30 10:12:38 [8049] receiving file list
+receiving incremental file list
+
+2011/12/30 10:12:40 [8052] Number of files: 6205
+Number of files: 6205
+2011/12/30 10:12:40 [8052] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 10:12:40 [8052] Total file size: 826297163 bytes
+Total file size: 826297163 bytes
+2011/12/30 10:12:40 [8052] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 10:12:40 [8052] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 10:12:40 [8052] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 10:12:40 [8052] File list size: 130401
+File list size: 130401
+2011/12/30 10:12:40 [8052] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/30 10:12:40 [8052] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 10:12:40 [8052] Total bytes sent: 902
+Total bytes sent: 902
+2011/12/30 10:12:40 [8052] Total bytes received: 133359
+Total bytes received: 133359
+
+2011/12/30 10:12:40 [8052] sent 902 bytes  received 133359 bytes  38360.29 bytes/sec
+sent 902 bytes  received 133359 bytes  38360.29 bytes/sec
+2011/12/30 10:12:40 [8052] total size is 826297163  speedup is 6154.41
+total size is 826297163  speedup is 6154.41
+-------- Done
+ven. déc. 30 10:12:40 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+------------------ END ------------------------
+Done.
+Going to sleep 2400 seconds
+Retrieving data from servers
+ven. déc. 30 10:52:45 2011 Cron: checking for running lipsync processes
+ven. déc. 30 10:52:45 2011 Cron: found 0 running helenasync processes
+-------- RETRIEVING UPDATES FROM SERVER -------
+ven. déc. 30 10:52:45 2011 Cron: checking for running lipsync processes
+ven. déc. 30 10:52:45 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ -> /home/fullbright/scripts/
+2011/12/30 10:52:47 [9610] receiving file list
+receiving incremental file list
+
+2011/12/30 10:52:47 [9613] Number of files: 64
+Number of files: 64
+2011/12/30 10:52:47 [9613] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 10:52:47 [9613] Total file size: 5891582 bytes
+Total file size: 5891582 bytes
+2011/12/30 10:52:47 [9613] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 10:52:47 [9613] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 10:52:47 [9613] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 10:52:47 [9613] File list size: 1276
+File list size: 1276
+2011/12/30 10:52:47 [9613] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/30 10:52:47 [9613] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 10:52:47 [9613] Total bytes sent: 60
+Total bytes sent: 60
+2011/12/30 10:52:47 [9613] Total bytes received: 1332
+Total bytes received: 1332
+
+2011/12/30 10:52:47 [9613] sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+2011/12/30 10:52:47 [9613] total size is 5891582  speedup is 4232.46
+total size is 5891582  speedup is 4232.46
+-------- Done
+ven. déc. 30 10:52:47 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 10:52:52 2011 Cron: checking for running lipsync processes
+ven. déc. 30 10:52:52 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/home/sergio/mydropbox/ -> /home/fullbright/mydropbox/
+2011/12/30 10:52:54 [9650] receiving file list
+receiving incremental file list
+
+2011/12/30 10:52:54 [9653] Number of files: 2665
+Number of files: 2665
+2011/12/30 10:52:54 [9653] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 10:52:54 [9653] Total file size: 2396436700 bytes
+Total file size: 2396436700 bytes
+2011/12/30 10:52:54 [9653] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 10:52:54 [9653] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 10:52:54 [9653] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 10:52:54 [9653] File list size: 58778
+File list size: 58778
+2011/12/30 10:52:54 [9653] File list generation time: 0.002 seconds
+File list generation time: 0.002 seconds
+2011/12/30 10:52:54 [9653] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 10:52:54 [9653] Total bytes sent: 262
+Total bytes sent: 262
+2011/12/30 10:52:54 [9653] Total bytes received: 59604
+Total bytes received: 59604
+
+2011/12/30 10:52:54 [9653] sent 262 bytes  received 59604 bytes  23946.40 bytes/sec
+sent 262 bytes  received 59604 bytes  23946.40 bytes/sec
+2011/12/30 10:52:54 [9653] total size is 2396436700  speedup is 40030.01
+total size is 2396436700  speedup is 40030.01
+-------- Done
+ven. déc. 30 10:52:55 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 10:53:00 2011 Cron: checking for running lipsync processes
+ven. déc. 30 10:53:00 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ -> /home/fullbright/Documents/Personnel/documents/
+2011/12/30 10:53:01 [9690] receiving file list
+receiving incremental file list
+
+2011/12/30 10:53:02 [9693] Number of files: 3773
+Number of files: 3773
+2011/12/30 10:53:02 [9693] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 10:53:02 [9693] Total file size: 3139901166 bytes
+Total file size: 3139901166 bytes
+2011/12/30 10:53:02 [9693] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 10:53:02 [9693] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 10:53:02 [9693] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 10:53:02 [9693] File list size: 100368
+File list size: 100368
+2011/12/30 10:53:02 [9693] File list generation time: 0.003 seconds
+File list generation time: 0.003 seconds
+2011/12/30 10:53:02 [9693] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 10:53:02 [9693] Total bytes sent: 334
+Total bytes sent: 334
+2011/12/30 10:53:02 [9693] Total bytes received: 101418
+Total bytes received: 101418
+
+2011/12/30 10:53:02 [9693] sent 334 bytes  received 101418 bytes  40700.80 bytes/sec
+sent 334 bytes  received 101418 bytes  40700.80 bytes/sec
+2011/12/30 10:53:02 [9693] total size is 3139901166  speedup is 30858.37
+total size is 3139901166  speedup is 30858.37
+-------- Done
+ven. déc. 30 10:53:02 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 10:53:07 2011 Cron: checking for running lipsync processes
+ven. déc. 30 10:53:07 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ -> /home/fullbright/Documents/Professionnel/
+2011/12/30 10:53:09 [9730] receiving file list
+receiving incremental file list
+
+2011/12/30 10:53:10 [9733] Number of files: 6205
+Number of files: 6205
+2011/12/30 10:53:10 [9733] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 10:53:10 [9733] Total file size: 826297163 bytes
+Total file size: 826297163 bytes
+2011/12/30 10:53:10 [9733] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 10:53:10 [9733] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 10:53:10 [9733] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 10:53:10 [9733] File list size: 130401
+File list size: 130401
+2011/12/30 10:53:10 [9733] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/30 10:53:10 [9733] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 10:53:10 [9733] Total bytes sent: 902
+Total bytes sent: 902
+2011/12/30 10:53:10 [9733] Total bytes received: 133359
+Total bytes received: 133359
+
+2011/12/30 10:53:10 [9733] sent 902 bytes  received 133359 bytes  38360.29 bytes/sec
+sent 902 bytes  received 133359 bytes  38360.29 bytes/sec
+2011/12/30 10:53:10 [9733] total size is 826297163  speedup is 6154.41
+total size is 826297163  speedup is 6154.41
+-------- Done
+ven. déc. 30 10:53:11 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+------------------ END ------------------------
+Done.
+Going to sleep 2400 seconds
+Retrieving data from servers
+ven. déc. 30 11:33:16 2011 Cron: checking for running lipsync processes
+ven. déc. 30 11:33:16 2011 Cron: found 0 running helenasync processes
+-------- RETRIEVING UPDATES FROM SERVER -------
+ven. déc. 30 11:33:16 2011 Cron: checking for running lipsync processes
+ven. déc. 30 11:33:16 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ -> /home/fullbright/scripts/
+2011/12/30 11:33:17 [10144] receiving file list
+receiving incremental file list
+
+2011/12/30 11:33:17 [10147] Number of files: 64
+Number of files: 64
+2011/12/30 11:33:17 [10147] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 11:33:17 [10147] Total file size: 5891582 bytes
+Total file size: 5891582 bytes
+2011/12/30 11:33:17 [10147] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 11:33:17 [10147] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 11:33:17 [10147] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 11:33:17 [10147] File list size: 1276
+File list size: 1276
+2011/12/30 11:33:17 [10147] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/30 11:33:17 [10147] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 11:33:17 [10147] Total bytes sent: 60
+Total bytes sent: 60
+2011/12/30 11:33:17 [10147] Total bytes received: 1332
+Total bytes received: 1332
+
+2011/12/30 11:33:17 [10147] sent 60 bytes  received 1332 bytes  928.00 bytes/sec
+sent 60 bytes  received 1332 bytes  928.00 bytes/sec
+2011/12/30 11:33:17 [10147] total size is 5891582  speedup is 4232.46
+total size is 5891582  speedup is 4232.46
+-------- Done
+ven. déc. 30 11:33:17 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 11:33:23 2011 Cron: checking for running lipsync processes
+ven. déc. 30 11:33:23 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/home/sergio/mydropbox/ -> /home/fullbright/mydropbox/
+2011/12/30 11:33:24 [10184] receiving file list
+receiving incremental file list
+
+2011/12/30 11:33:25 [10187] Number of files: 2665
+Number of files: 2665
+2011/12/30 11:33:25 [10187] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 11:33:25 [10187] Total file size: 2396436700 bytes
+Total file size: 2396436700 bytes
+2011/12/30 11:33:25 [10187] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 11:33:25 [10187] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 11:33:25 [10187] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 11:33:25 [10187] File list size: 58778
+File list size: 58778
+2011/12/30 11:33:25 [10187] File list generation time: 0.002 seconds
+File list generation time: 0.002 seconds
+2011/12/30 11:33:25 [10187] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 11:33:25 [10187] Total bytes sent: 262
+Total bytes sent: 262
+2011/12/30 11:33:25 [10187] Total bytes received: 59604
+Total bytes received: 59604
+
+2011/12/30 11:33:25 [10187] sent 262 bytes  received 59604 bytes  23946.40 bytes/sec
+sent 262 bytes  received 59604 bytes  23946.40 bytes/sec
+2011/12/30 11:33:25 [10187] total size is 2396436700  speedup is 40030.01
+total size is 2396436700  speedup is 40030.01
+-------- Done
+ven. déc. 30 11:33:25 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 11:33:30 2011 Cron: checking for running lipsync processes
+ven. déc. 30 11:33:30 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ -> /home/fullbright/Documents/Personnel/documents/
+2011/12/30 11:33:31 [10226] receiving file list
+receiving incremental file list
+
+2011/12/30 11:33:38 [10229] Number of files: 3773
+Number of files: 3773
+2011/12/30 11:33:38 [10229] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 11:33:38 [10229] Total file size: 3139901166 bytes
+Total file size: 3139901166 bytes
+2011/12/30 11:33:38 [10229] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 11:33:38 [10229] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 11:33:38 [10229] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 11:33:38 [10229] File list size: 100368
+File list size: 100368
+2011/12/30 11:33:38 [10229] File list generation time: 0.003 seconds
+File list generation time: 0.003 seconds
+2011/12/30 11:33:38 [10229] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 11:33:38 [10229] Total bytes sent: 334
+Total bytes sent: 334
+2011/12/30 11:33:38 [10229] Total bytes received: 101418
+Total bytes received: 101418
+
+2011/12/30 11:33:38 [10229] sent 334 bytes  received 101418 bytes  11970.82 bytes/sec
+sent 334 bytes  received 101418 bytes  11970.82 bytes/sec
+2011/12/30 11:33:38 [10229] total size is 3139901166  speedup is 30858.37
+total size is 3139901166  speedup is 30858.37
+-------- Done
+ven. déc. 30 11:33:38 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 11:33:43 2011 Cron: checking for running lipsync processes
+ven. déc. 30 11:33:43 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ -> /home/fullbright/Documents/Professionnel/
+2011/12/30 11:33:44 [10271] receiving file list
+receiving incremental file list
+
+2011/12/30 11:33:46 [10274] Number of files: 6205
+Number of files: 6205
+2011/12/30 11:33:46 [10274] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 11:33:46 [10274] Total file size: 826297163 bytes
+Total file size: 826297163 bytes
+2011/12/30 11:33:46 [10274] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 11:33:46 [10274] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 11:33:46 [10274] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 11:33:46 [10274] File list size: 130401
+File list size: 130401
+2011/12/30 11:33:46 [10274] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/30 11:33:46 [10274] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 11:33:46 [10274] Total bytes sent: 902
+Total bytes sent: 902
+2011/12/30 11:33:46 [10274] Total bytes received: 133359
+Total bytes received: 133359
+
+2011/12/30 11:33:46 [10274] sent 902 bytes  received 133359 bytes  38360.29 bytes/sec
+sent 902 bytes  received 133359 bytes  38360.29 bytes/sec
+2011/12/30 11:33:46 [10274] total size is 826297163  speedup is 6154.41
+total size is 826297163  speedup is 6154.41
+-------- Done
+ven. déc. 30 11:33:46 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+------------------ END ------------------------
+Done.
+Going to sleep 2400 seconds
+Retrieving data from servers
+ven. déc. 30 12:13:51 2011 Cron: checking for running lipsync processes
+ven. déc. 30 12:13:51 2011 Cron: found 0 running helenasync processes
+-------- RETRIEVING UPDATES FROM SERVER -------
+ven. déc. 30 12:13:51 2011 Cron: checking for running lipsync processes
+ven. déc. 30 12:13:51 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ -> /home/fullbright/scripts/
+2011/12/30 12:13:53 [10653] receiving file list
+receiving incremental file list
+
+2011/12/30 12:13:53 [10656] Number of files: 64
+Number of files: 64
+2011/12/30 12:13:53 [10656] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 12:13:53 [10656] Total file size: 5891582 bytes
+Total file size: 5891582 bytes
+2011/12/30 12:13:53 [10656] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 12:13:53 [10656] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 12:13:53 [10656] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 12:13:53 [10656] File list size: 1276
+File list size: 1276
+2011/12/30 12:13:53 [10656] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/30 12:13:53 [10656] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 12:13:53 [10656] Total bytes sent: 60
+Total bytes sent: 60
+2011/12/30 12:13:53 [10656] Total bytes received: 1332
+Total bytes received: 1332
+
+2011/12/30 12:13:53 [10656] sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+2011/12/30 12:13:53 [10656] total size is 5891582  speedup is 4232.46
+total size is 5891582  speedup is 4232.46
+-------- Done
+ven. déc. 30 12:13:53 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 12:13:58 2011 Cron: checking for running lipsync processes
+ven. déc. 30 12:13:58 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/home/sergio/mydropbox/ -> /home/fullbright/mydropbox/
+2011/12/30 12:14:00 [10697] receiving file list
+receiving incremental file list
+
+2011/12/30 12:14:01 [10700] Number of files: 2665
+Number of files: 2665
+2011/12/30 12:14:01 [10700] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 12:14:01 [10700] Total file size: 2396436700 bytes
+Total file size: 2396436700 bytes
+2011/12/30 12:14:01 [10700] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 12:14:01 [10700] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 12:14:01 [10700] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 12:14:01 [10700] File list size: 58778
+File list size: 58778
+2011/12/30 12:14:01 [10700] File list generation time: 0.002 seconds
+File list generation time: 0.002 seconds
+2011/12/30 12:14:01 [10700] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 12:14:01 [10700] Total bytes sent: 262
+Total bytes sent: 262
+2011/12/30 12:14:01 [10700] Total bytes received: 59604
+Total bytes received: 59604
+
+2011/12/30 12:14:01 [10700] sent 262 bytes  received 59604 bytes  17104.57 bytes/sec
+sent 262 bytes  received 59604 bytes  17104.57 bytes/sec
+2011/12/30 12:14:01 [10700] total size is 2396436700  speedup is 40030.01
+total size is 2396436700  speedup is 40030.01
+-------- Done
+ven. déc. 30 12:14:01 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 12:14:06 2011 Cron: checking for running lipsync processes
+ven. déc. 30 12:14:06 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ -> /home/fullbright/Documents/Personnel/documents/
+2011/12/30 12:14:07 [10737] receiving file list
+receiving incremental file list
+
+2011/12/30 12:14:08 [10740] Number of files: 3773
+Number of files: 3773
+2011/12/30 12:14:08 [10740] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 12:14:08 [10740] Total file size: 3139901166 bytes
+Total file size: 3139901166 bytes
+2011/12/30 12:14:08 [10740] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 12:14:08 [10740] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 12:14:08 [10740] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 12:14:08 [10740] File list size: 100368
+File list size: 100368
+2011/12/30 12:14:08 [10740] File list generation time: 0.003 seconds
+File list generation time: 0.003 seconds
+2011/12/30 12:14:08 [10740] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 12:14:08 [10740] Total bytes sent: 334
+Total bytes sent: 334
+2011/12/30 12:14:08 [10740] Total bytes received: 101418
+Total bytes received: 101418
+
+2011/12/30 12:14:08 [10740] sent 334 bytes  received 101418 bytes  40700.80 bytes/sec
+sent 334 bytes  received 101418 bytes  40700.80 bytes/sec
+2011/12/30 12:14:08 [10740] total size is 3139901166  speedup is 30858.37
+total size is 3139901166  speedup is 30858.37
+-------- Done
+ven. déc. 30 12:14:09 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 12:14:14 2011 Cron: checking for running lipsync processes
+ven. déc. 30 12:14:14 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ -> /home/fullbright/Documents/Professionnel/
+2011/12/30 12:14:18 [10777] receiving file list
+receiving incremental file list
+
+2011/12/30 12:14:19 [10780] Number of files: 6205
+Number of files: 6205
+2011/12/30 12:14:19 [10780] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 12:14:19 [10780] Total file size: 826297163 bytes
+Total file size: 826297163 bytes
+2011/12/30 12:14:19 [10780] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 12:14:19 [10780] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 12:14:19 [10780] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 12:14:19 [10780] File list size: 130401
+File list size: 130401
+2011/12/30 12:14:19 [10780] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/30 12:14:19 [10780] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 12:14:19 [10780] Total bytes sent: 902
+Total bytes sent: 902
+2011/12/30 12:14:19 [10780] Total bytes received: 133359
+Total bytes received: 133359
+
+2011/12/30 12:14:19 [10780] sent 902 bytes  received 133359 bytes  24411.09 bytes/sec
+sent 902 bytes  received 133359 bytes  24411.09 bytes/sec
+2011/12/30 12:14:19 [10780] total size is 826297163  speedup is 6154.41
+total size is 826297163  speedup is 6154.41
+-------- Done
+ven. déc. 30 12:14:20 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+------------------ END ------------------------
+Done.
+Going to sleep 2400 seconds
+Retrieving data from servers
+ven. déc. 30 12:54:25 2011 Cron: checking for running lipsync processes
+ven. déc. 30 12:54:25 2011 Cron: found 0 running helenasync processes
+-------- RETRIEVING UPDATES FROM SERVER -------
+ven. déc. 30 12:54:25 2011 Cron: checking for running lipsync processes
+ven. déc. 30 12:54:25 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ -> /home/fullbright/scripts/
+2011/12/30 12:54:26 [11475] receiving file list
+receiving incremental file list
+
+2011/12/30 12:54:26 [11478] Number of files: 64
+Number of files: 64
+2011/12/30 12:54:26 [11478] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 12:54:26 [11478] Total file size: 5891582 bytes
+Total file size: 5891582 bytes
+2011/12/30 12:54:26 [11478] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 12:54:26 [11478] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 12:54:26 [11478] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 12:54:26 [11478] File list size: 1276
+File list size: 1276
+2011/12/30 12:54:26 [11478] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/30 12:54:26 [11478] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 12:54:26 [11478] Total bytes sent: 60
+Total bytes sent: 60
+2011/12/30 12:54:26 [11478] Total bytes received: 1332
+Total bytes received: 1332
+
+2011/12/30 12:54:26 [11478] sent 60 bytes  received 1332 bytes  928.00 bytes/sec
+sent 60 bytes  received 1332 bytes  928.00 bytes/sec
+2011/12/30 12:54:26 [11478] total size is 5891582  speedup is 4232.46
+total size is 5891582  speedup is 4232.46
+-------- Done
+ven. déc. 30 12:54:26 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 12:54:31 2011 Cron: checking for running lipsync processes
+ven. déc. 30 12:54:32 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/home/sergio/mydropbox/ -> /home/fullbright/mydropbox/
+2011/12/30 12:54:33 [11524] receiving file list
+receiving incremental file list
+
+2011/12/30 12:54:34 [11527] Number of files: 2665
+Number of files: 2665
+2011/12/30 12:54:34 [11527] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 12:54:34 [11527] Total file size: 2396436700 bytes
+Total file size: 2396436700 bytes
+2011/12/30 12:54:34 [11527] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 12:54:34 [11527] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 12:54:34 [11527] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 12:54:34 [11527] File list size: 58778
+File list size: 58778
+2011/12/30 12:54:34 [11527] File list generation time: 0.002 seconds
+File list generation time: 0.002 seconds
+2011/12/30 12:54:34 [11527] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 12:54:34 [11527] Total bytes sent: 262
+Total bytes sent: 262
+2011/12/30 12:54:34 [11527] Total bytes received: 59604
+Total bytes received: 59604
+
+2011/12/30 12:54:34 [11527] sent 262 bytes  received 59604 bytes  23946.40 bytes/sec
+sent 262 bytes  received 59604 bytes  23946.40 bytes/sec
+2011/12/30 12:54:34 [11527] total size is 2396436700  speedup is 40030.01
+total size is 2396436700  speedup is 40030.01
+-------- Done
+ven. déc. 30 12:54:34 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 12:54:39 2011 Cron: checking for running lipsync processes
+ven. déc. 30 12:54:39 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ -> /home/fullbright/Documents/Personnel/documents/
+2011/12/30 12:54:41 [11564] receiving file list
+receiving incremental file list
+
+2011/12/30 12:54:42 [11567] Number of files: 3773
+Number of files: 3773
+2011/12/30 12:54:42 [11567] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 12:54:42 [11567] Total file size: 3139901166 bytes
+Total file size: 3139901166 bytes
+2011/12/30 12:54:42 [11567] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 12:54:42 [11567] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 12:54:42 [11567] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 12:54:42 [11567] File list size: 100368
+File list size: 100368
+2011/12/30 12:54:42 [11567] File list generation time: 0.003 seconds
+File list generation time: 0.003 seconds
+2011/12/30 12:54:42 [11567] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 12:54:42 [11567] Total bytes sent: 334
+Total bytes sent: 334
+2011/12/30 12:54:42 [11567] Total bytes received: 101418
+Total bytes received: 101418
+
+2011/12/30 12:54:42 [11567] sent 334 bytes  received 101418 bytes  29072.00 bytes/sec
+sent 334 bytes  received 101418 bytes  29072.00 bytes/sec
+2011/12/30 12:54:42 [11567] total size is 3139901166  speedup is 30858.37
+total size is 3139901166  speedup is 30858.37
+-------- Done
+ven. déc. 30 12:54:42 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 12:54:47 2011 Cron: checking for running lipsync processes
+ven. déc. 30 12:54:47 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ -> /home/fullbright/Documents/Professionnel/
+2011/12/30 12:54:48 [11604] receiving file list
+receiving incremental file list
+
+2011/12/30 12:54:50 [11607] Number of files: 6205
+Number of files: 6205
+2011/12/30 12:54:50 [11607] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 12:54:50 [11607] Total file size: 826297163 bytes
+Total file size: 826297163 bytes
+2011/12/30 12:54:50 [11607] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 12:54:50 [11607] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 12:54:50 [11607] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 12:54:50 [11607] File list size: 130401
+File list size: 130401
+2011/12/30 12:54:50 [11607] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/30 12:54:50 [11607] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 12:54:50 [11607] Total bytes sent: 902
+Total bytes sent: 902
+2011/12/30 12:54:50 [11607] Total bytes received: 133359
+Total bytes received: 133359
+
+2011/12/30 12:54:50 [11607] sent 902 bytes  received 133359 bytes  38360.29 bytes/sec
+sent 902 bytes  received 133359 bytes  38360.29 bytes/sec
+2011/12/30 12:54:50 [11607] total size is 826297163  speedup is 6154.41
+total size is 826297163  speedup is 6154.41
+-------- Done
+ven. déc. 30 12:54:50 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+------------------ END ------------------------
+Done.
+Going to sleep 2400 seconds
+Retrieving data from servers
+ven. déc. 30 13:34:55 2011 Cron: checking for running lipsync processes
+ven. déc. 30 13:34:55 2011 Cron: found 0 running helenasync processes
+-------- RETRIEVING UPDATES FROM SERVER -------
+ven. déc. 30 13:34:55 2011 Cron: checking for running lipsync processes
+ven. déc. 30 13:34:55 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ -> /home/fullbright/scripts/
+2011/12/30 13:34:57 [12260] receiving file list
+receiving incremental file list
+
+2011/12/30 13:34:57 [12263] Number of files: 64
+Number of files: 64
+2011/12/30 13:34:57 [12263] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 13:34:57 [12263] Total file size: 5891582 bytes
+Total file size: 5891582 bytes
+2011/12/30 13:34:57 [12263] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 13:34:57 [12263] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 13:34:57 [12263] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 13:34:57 [12263] File list size: 1276
+File list size: 1276
+2011/12/30 13:34:57 [12263] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/30 13:34:57 [12263] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 13:34:57 [12263] Total bytes sent: 60
+Total bytes sent: 60
+2011/12/30 13:34:57 [12263] Total bytes received: 1332
+Total bytes received: 1332
+
+2011/12/30 13:34:57 [12263] sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+2011/12/30 13:34:57 [12263] total size is 5891582  speedup is 4232.46
+total size is 5891582  speedup is 4232.46
+-------- Done
+ven. déc. 30 13:34:57 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 13:35:02 2011 Cron: checking for running lipsync processes
+ven. déc. 30 13:35:02 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/home/sergio/mydropbox/ -> /home/fullbright/mydropbox/
+2011/12/30 13:35:04 [12304] receiving file list
+receiving incremental file list
+
+2011/12/30 13:35:05 [12307] Number of files: 2665
+Number of files: 2665
+2011/12/30 13:35:05 [12307] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 13:35:05 [12307] Total file size: 2396436700 bytes
+Total file size: 2396436700 bytes
+2011/12/30 13:35:05 [12307] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 13:35:05 [12307] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 13:35:05 [12307] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 13:35:05 [12307] File list size: 58778
+File list size: 58778
+2011/12/30 13:35:05 [12307] File list generation time: 0.002 seconds
+File list generation time: 0.002 seconds
+2011/12/30 13:35:05 [12307] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 13:35:05 [12307] Total bytes sent: 262
+Total bytes sent: 262
+2011/12/30 13:35:05 [12307] Total bytes received: 59604
+Total bytes received: 59604
+
+2011/12/30 13:35:05 [12307] sent 262 bytes  received 59604 bytes  17104.57 bytes/sec
+sent 262 bytes  received 59604 bytes  17104.57 bytes/sec
+2011/12/30 13:35:05 [12307] total size is 2396436700  speedup is 40030.01
+total size is 2396436700  speedup is 40030.01
+-------- Done
+ven. déc. 30 13:35:05 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 13:35:10 2011 Cron: checking for running lipsync processes
+ven. déc. 30 13:35:10 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ -> /home/fullbright/Documents/Personnel/documents/
+2011/12/30 13:35:11 [12344] receiving file list
+receiving incremental file list
+
+2011/12/30 13:35:12 [12347] Number of files: 3773
+Number of files: 3773
+2011/12/30 13:35:12 [12347] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 13:35:12 [12347] Total file size: 3139901166 bytes
+Total file size: 3139901166 bytes
+2011/12/30 13:35:12 [12347] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 13:35:12 [12347] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 13:35:12 [12347] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 13:35:12 [12347] File list size: 100368
+File list size: 100368
+2011/12/30 13:35:12 [12347] File list generation time: 0.003 seconds
+File list generation time: 0.003 seconds
+2011/12/30 13:35:12 [12347] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 13:35:12 [12347] Total bytes sent: 334
+Total bytes sent: 334
+2011/12/30 13:35:12 [12347] Total bytes received: 101418
+Total bytes received: 101418
+
+2011/12/30 13:35:12 [12347] sent 334 bytes  received 101418 bytes  40700.80 bytes/sec
+sent 334 bytes  received 101418 bytes  40700.80 bytes/sec
+2011/12/30 13:35:12 [12347] total size is 3139901166  speedup is 30858.37
+total size is 3139901166  speedup is 30858.37
+-------- Done
+ven. déc. 30 13:35:12 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 13:35:18 2011 Cron: checking for running lipsync processes
+ven. déc. 30 13:35:18 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ -> /home/fullbright/Documents/Professionnel/
+2011/12/30 13:35:19 [12384] receiving file list
+receiving incremental file list
+
+2011/12/30 13:35:21 [12387] Number of files: 6205
+Number of files: 6205
+2011/12/30 13:35:21 [12387] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 13:35:21 [12387] Total file size: 826297163 bytes
+Total file size: 826297163 bytes
+2011/12/30 13:35:21 [12387] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 13:35:21 [12387] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 13:35:21 [12387] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 13:35:21 [12387] File list size: 130401
+File list size: 130401
+2011/12/30 13:35:21 [12387] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/30 13:35:21 [12387] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 13:35:21 [12387] Total bytes sent: 902
+Total bytes sent: 902
+2011/12/30 13:35:21 [12387] Total bytes received: 133359
+Total bytes received: 133359
+
+2011/12/30 13:35:21 [12387] sent 902 bytes  received 133359 bytes  38360.29 bytes/sec
+sent 902 bytes  received 133359 bytes  38360.29 bytes/sec
+2011/12/30 13:35:21 [12387] total size is 826297163  speedup is 6154.41
+total size is 826297163  speedup is 6154.41
+-------- Done
+ven. déc. 30 13:35:21 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+------------------ END ------------------------
+Done.
+Going to sleep 2400 seconds
+Retrieving data from servers
+ven. déc. 30 14:59:57 2011 Cron: checking for running lipsync processes
+ven. déc. 30 14:59:57 2011 Cron: found 0 running helenasync processes
+-------- RETRIEVING UPDATES FROM SERVER -------
+ven. déc. 30 14:59:57 2011 Cron: checking for running lipsync processes
+ven. déc. 30 14:59:57 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ -> /home/fullbright/scripts/
+2011/12/30 14:59:59 [13990] receiving file list
+receiving incremental file list
+
+2011/12/30 14:59:59 [13993] Number of files: 64
+Number of files: 64
+2011/12/30 14:59:59 [13993] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 14:59:59 [13993] Total file size: 5891582 bytes
+Total file size: 5891582 bytes
+2011/12/30 14:59:59 [13993] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 14:59:59 [13993] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 14:59:59 [13993] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 14:59:59 [13993] File list size: 1276
+File list size: 1276
+2011/12/30 14:59:59 [13993] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/30 14:59:59 [13993] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 14:59:59 [13993] Total bytes sent: 60
+Total bytes sent: 60
+2011/12/30 14:59:59 [13993] Total bytes received: 1332
+Total bytes received: 1332
+
+2011/12/30 14:59:59 [13993] sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+sent 60 bytes  received 1332 bytes  556.80 bytes/sec
+2011/12/30 14:59:59 [13993] total size is 5891582  speedup is 4232.46
+total size is 5891582  speedup is 4232.46
+-------- Done
+ven. déc. 30 14:59:59 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 15:00:04 2011 Cron: checking for running lipsync processes
+ven. déc. 30 15:00:04 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/home/sergio/mydropbox/ -> /home/fullbright/mydropbox/
+2011/12/30 15:00:06 [14030] receiving file list
+receiving incremental file list
+
+2011/12/30 15:00:07 [14033] Number of files: 2665
+Number of files: 2665
+2011/12/30 15:00:07 [14033] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 15:00:07 [14033] Total file size: 2396436700 bytes
+Total file size: 2396436700 bytes
+2011/12/30 15:00:07 [14033] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 15:00:07 [14033] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 15:00:07 [14033] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 15:00:07 [14033] File list size: 58778
+File list size: 58778
+2011/12/30 15:00:07 [14033] File list generation time: 0.002 seconds
+File list generation time: 0.002 seconds
+2011/12/30 15:00:07 [14033] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 15:00:07 [14033] Total bytes sent: 262
+Total bytes sent: 262
+2011/12/30 15:00:07 [14033] Total bytes received: 59604
+Total bytes received: 59604
+
+2011/12/30 15:00:07 [14033] sent 262 bytes  received 59604 bytes  17104.57 bytes/sec
+sent 262 bytes  received 59604 bytes  17104.57 bytes/sec
+2011/12/30 15:00:07 [14033] total size is 2396436700  speedup is 40030.01
+total size is 2396436700  speedup is 40030.01
+-------- Done
+ven. déc. 30 15:00:07 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 15:00:12 2011 Cron: checking for running lipsync processes
+ven. déc. 30 15:00:12 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ -> /home/fullbright/Documents/Personnel/documents/
+2011/12/30 15:00:13 [14071] receiving file list
+receiving incremental file list
+
+2011/12/30 15:00:15 [14091] Number of files: 3773
+Number of files: 3773
+2011/12/30 15:00:15 [14091] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 15:00:15 [14091] Total file size: 3139901166 bytes
+Total file size: 3139901166 bytes
+2011/12/30 15:00:15 [14091] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 15:00:15 [14091] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 15:00:15 [14091] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 15:00:15 [14091] File list size: 100368
+File list size: 100368
+2011/12/30 15:00:15 [14091] File list generation time: 0.003 seconds
+File list generation time: 0.003 seconds
+2011/12/30 15:00:15 [14091] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 15:00:15 [14091] Total bytes sent: 334
+Total bytes sent: 334
+2011/12/30 15:00:15 [14091] Total bytes received: 101418
+Total bytes received: 101418
+
+2011/12/30 15:00:15 [14091] sent 334 bytes  received 101418 bytes  29072.00 bytes/sec
+sent 334 bytes  received 101418 bytes  29072.00 bytes/sec
+2011/12/30 15:00:15 [14091] total size is 3139901166  speedup is 30858.37
+total size is 3139901166  speedup is 30858.37
+-------- Done
+ven. déc. 30 15:00:15 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+ven. déc. 30 15:00:20 2011 Cron: checking for running lipsync processes
+ven. déc. 30 15:00:20 2011 Cron: found 0 running helenasync processes
+-------- Retrieving updates : home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ -> /home/fullbright/Documents/Professionnel/
+2011/12/30 15:00:22 [14129] receiving file list
+receiving incremental file list
+
+2011/12/30 15:00:23 [14132] Number of files: 6205
+Number of files: 6205
+2011/12/30 15:00:23 [14132] Number of files transferred: 0
+Number of files transferred: 0
+2011/12/30 15:00:23 [14132] Total file size: 826297163 bytes
+Total file size: 826297163 bytes
+2011/12/30 15:00:23 [14132] Total transferred file size: 0 bytes
+Total transferred file size: 0 bytes
+2011/12/30 15:00:23 [14132] Literal data: 0 bytes
+Literal data: 0 bytes
+2011/12/30 15:00:23 [14132] Matched data: 0 bytes
+Matched data: 0 bytes
+2011/12/30 15:00:23 [14132] File list size: 130401
+File list size: 130401
+2011/12/30 15:00:23 [14132] File list generation time: 0.001 seconds
+File list generation time: 0.001 seconds
+2011/12/30 15:00:23 [14132] File list transfer time: 0.000 seconds
+File list transfer time: 0.000 seconds
+2011/12/30 15:00:23 [14132] Total bytes sent: 902
+Total bytes sent: 902
+2011/12/30 15:00:23 [14132] Total bytes received: 133359
+Total bytes received: 133359
+
+2011/12/30 15:00:23 [14132] sent 902 bytes  received 133359 bytes  38360.29 bytes/sec
+sent 902 bytes  received 133359 bytes  38360.29 bytes/sec
+2011/12/30 15:00:23 [14132] total size is 826297163  speedup is 6154.41
+total size is 826297163  speedup is 6154.41
+-------- Done
+ven. déc. 30 15:00:23 2011 Cron: updated home.afanou.com -> gpartner-laptop
+Waiting 5 seconds ...
+Woke up !
+------------------ END ------------------------
+Done.
+Going to sleep 2400 seconds
+Fri Dec 30 15:03:24 2011 Normal: Rsyncing list
+/Developpement/gPartner
+sending incremental file list
+Developpement/
+Developpement/gPartner/
+
+sent 100 bytes  received 20 bytes  80.00 bytes/sec
+total size is 0  speedup is 0.00
+Fri Dec 30 15:03:25 2011 Normal: Finished a list = 0
+Fri Dec 30 15:06:11 2011 Normal: Rsyncing list
+/Developpement/gPartner/google-apps-profiles-manager
+/Developpement/gPartner/google-apps-profiles-manager/.git
+/Developpement/gPartner/google-apps-profiles-manager/.git/refs
+/Developpement/gPartner/google-apps-profiles-manager/.git/refs/heads
+/Developpement/gPartner/google-apps-profiles-manager/.git/refs/tags
+/Developpement/gPartner/google-apps-profiles-manager/.git/info
+/Developpement/gPartner/google-apps-profiles-manager/.git/info/exclude
+/Developpement/gPartner/google-apps-profiles-manager/.git/hooks
+/Developpement/gPartner/google-apps-profiles-manager/.git/hooks/post-update.sample
+/Developpement/gPartner/google-apps-profiles-manager/.git/hooks/pre-commit.sample
+/Developpement/gPartner/google-apps-profiles-manager/.git/hooks/update.sample
+/Developpement/gPartner/google-apps-profiles-manager/.git/hooks/applypatch-msg.sample
+/Developpement/gPartner/google-apps-profiles-manager/.git/hooks/commit-msg.sample
+/Developpement/gPartner/google-apps-profiles-manager/.git/hooks/post-receive.sample
+/Developpement/gPartner/google-apps-profiles-manager/.git/hooks/prepare-commit-msg.sample
+/Developpement/gPartner/google-apps-profiles-manager/.git/hooks/post-commit.sample
+/Developpement/gPartner/google-apps-profiles-manager/.git/hooks/pre-rebase.sample
+/Developpement/gPartner/google-apps-profiles-manager/.git/hooks/pre-applypatch.sample
+/Developpement/gPartner/google-apps-profiles-manager/.git/description
+/Developpement/gPartner/google-apps-profiles-manager/.git/branches
+/Developpement/gPartner/google-apps-profiles-manager/.git/HEAD
+/Developpement/gPartner/google-apps-profiles-manager/.git/config
+/Developpement/gPartner/google-apps-profiles-manager/.git/objects
+/Developpement/gPartner/google-apps-profiles-manager/.git/objects/info
+/Developpement/gPartner/google-apps-profiles-manager/.git/objects/pack
+/Developpement/gPartner/google-apps-profiles-manager/.git/objects/pack/tmp_pack_x43Itc
+sending incremental file list
+Developpement/gPartner/
+Developpement/gPartner/google-apps-profiles-manager/
+Developpement/gPartner/google-apps-profiles-manager/.git/
+Developpement/gPartner/google-apps-profiles-manager/.git/HEAD
+Developpement/gPartner/google-apps-profiles-manager/.git/config
+Developpement/gPartner/google-apps-profiles-manager/.git/description
+Developpement/gPartner/google-apps-profiles-manager/.git/branches/
+Developpement/gPartner/google-apps-profiles-manager/.git/hooks/
+Developpement/gPartner/google-apps-profiles-manager/.git/hooks/applypatch-msg.sample
+Developpement/gPartner/google-apps-profiles-manager/.git/hooks/commit-msg.sample
+Developpement/gPartner/google-apps-profiles-manager/.git/hooks/post-commit.sample
+Developpement/gPartner/google-apps-profiles-manager/.git/hooks/post-receive.sample
+Developpement/gPartner/google-apps-profiles-manager/.git/hooks/post-update.sample
+Developpement/gPartner/google-apps-profiles-manager/.git/hooks/pre-applypatch.sample
+Developpement/gPartner/google-apps-profiles-manager/.git/hooks/pre-commit.sample
+Developpement/gPartner/google-apps-profiles-manager/.git/hooks/pre-rebase.sample
+Developpement/gPartner/google-apps-profiles-manager/.git/hooks/prepare-commit-msg.sample
+Developpement/gPartner/google-apps-profiles-manager/.git/hooks/update.sample
+Developpement/gPartner/google-apps-profiles-manager/.git/info/
+Developpement/gPartner/google-apps-profiles-manager/.git/info/exclude
+Developpement/gPartner/google-apps-profiles-manager/.git/objects/
+Developpement/gPartner/google-apps-profiles-manager/.git/objects/info/
+Developpement/gPartner/google-apps-profiles-manager/.git/objects/pack/
+Developpement/gPartner/google-apps-profiles-manager/.git/objects/pack/tmp_pack_x43Itc
+Developpement/gPartner/google-apps-profiles-manager/.git/refs/
+Developpement/gPartner/google-apps-profiles-manager/.git/refs/heads/
+
+sent 1474652 bytes  received 342 bytes  79729.41 bytes/sec
+total size is 2879726  speedup is 1.95
+Fri Dec 30 15:06:29 2011 Normal: Finished a list = 0
+Fri Dec 30 15:06:29 2011 Normal: Deleting list
+/media/DATA/SERGIO-PC/Professionel//Developpement/gPartner/google-apps-profiles-manager/.git/HEAD.lock
+/media/DATA/SERGIO-PC/Professionel//Developpement/gPartner/google-apps-profiles-manager/.git/config.lock
+/media/DATA/SERGIO-PC/Professionel//Developpement/gPartner/google-apps-profiles-manager/.git/tmUr6EI
+Fri Dec 30 15:06:30 2011 Normal: Finished a list = 0

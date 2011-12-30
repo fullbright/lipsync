@@ -75,7 +75,7 @@ fi
 ###############
 TOTAL_TRANS=`cat $LOGFILE |grep "Number of files transferred" | tail -n1 | cut -d" " -f5`
 
-if [ "${TOTAL_TRANS}" -gt '0' ]; then
+if [ "${TOTAL_TRANS}" -gt "0" ]; then
     	if [ "${TOTAL_TRANS}" -eq '1' ]; then
 		    POPUPMESSAGE="${POPUPMESSAGE} \n$TOTAL_TRANS file synced"
 	    else
