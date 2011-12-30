@@ -1,0 +1,26 @@
+
+ - Adapt install.sh script
+	modify a default configuration file - http://stackoverflow.com/questions/2464760/modify-config-file-using-bash-script
+	check entries - they mlust look like what we are waiting for : email address, url, ...
+ - chech how to include the offline lua script directly in helenasync.lua
+	http://www.lua.org/pil/8.html
+	require "myfile.lua"
+	user -runner http://code.google.com/p/lsyncd/wiki/Lsyncd20Manual#The_Configuration_File
+	loadfile / dofile
+	http://stackoverflow.com/questions/2932172/how-to-i-create-include-files-in-lua-language
+	compile the file and copy it in the path package.path
+ - Easy the manual pull and push usage
+ - To be able to stop sync temporary
+ - To be able not to sync when connexion is not available
+ - While looking for running upload, use another variable in place of REMOTE_SERVER
+ - Pop transferred files names
+ - Ajust delay in params conf file
+ - Check if internet connexion is available 
+    If not, retry in a bigger amount of time.
+ - Each time we run the download script and there is no file to sync, come back in a bigger amount of time
+ 
+v1.1
+ - Check each file we read to avoid bugs on access : config file, pid file, log file
+ - Added pull from server script
+ - Added push to server script
+ - If a helenasync is not running during cron job, display a on screen message

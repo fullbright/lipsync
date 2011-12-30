@@ -60,7 +60,7 @@ case "$1" in
   start)
 	echo -n "Starting $NAME daemon..."
 	
-	echo "Executing command : su $RUN_AS_USER -c '$DAEMON -log $LOGLEVEL -delay $DELAY_SEC -logfile $LOGFILE -pidfile $PIDFILE $CONF_FILE'"
+	echo "Executing command : su $RUN_AS_USER -c '$DAEMON -log $LOGLEVEL -delay $DELAY_SEC -logfile $LOGFILE -runner $RUNNERFILE -pidfile $PIDFILE $CONF_FILE'"
 	su $RUN_AS_USER -c "$DAEMON -log $LOGLEVEL -delay $DELAY_SEC -logfile $LOGFILE -pidfile $PIDFILE $CONF_FILE"
 	echo "done"
 
