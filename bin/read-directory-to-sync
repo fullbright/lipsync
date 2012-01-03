@@ -1,15 +1,55 @@
 #!/bin/bash
-INPUT=/home/fullbright/.helenasync/data.csv
-OLDIFS=$IFS
-IFS=,
-[ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
-while read flname dob ssn tel status
+#
+#
+# Read sync convfiguration from lua file
+
+
+#INPUT=/home/fullbright/.helenasync/data.csv
+INPUTFILE=/opt/helenasync/conf/helenasync.lua
+
+#cat /opt/helenasync/conf/helenasync.lua | tr '\n' '\t' | grep sync{\n*.*}
+#eval SYNCS=`tr '\n' ' ' < $INPUT | grep -o sync\{\n*.*\}`
+
+#cat $INPUTFILE | tr -d '\n' | grep -o sync\{\n*.*\}
+SYNCS=$(tr '\n' ' ' < $INPUTFILE | grep -o sync\{.*\})
+
+echo "Syncs is : $SYNCS"
+
+#SYNCS2=$(sed -e "s/sync{/ /g" < $SYNCS)
+
+#echo
+#echo $SYNCS2
+
+OIFS=$IFS
+IFS=','
+arr2=$(sed -e "s/sync{/ /g" "$SYNCS") #$SYNCS
+for x in $arr2
 do
-	echo "Name : $flname"
-	echo "DOB : $dob"
-	echo "SSN : $ssn"
-	echo "Telephone : $tel"
-	echo "Status : $status"
-	echo "--"
-done < $INPUT
-IFS=$OLDIFS
+    echo "> [$x]"
+done
+
+IFS=$OIFS
+
+# split into multiple item
+#arr=$(echo $SYNCS | tr "sync{" "\n")
+
+#for x in $arr
+#do
+#    echo "\"$x\""
+#done
+
+#OLDIFS=$IFS
+#IFS=,
+#[ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
+#while read flname dob ssn tel status
+#do
+#	echo "Name : $flname"
+#	echo "DOB : $dob"
+#	echo "SSN : $ssn"
+#	echo "Telephone : $tel"
+#	echo "Status : $status"
+#	echo "--"
+#done < $INPUT
+#IFS=$OLDIFS
+
+

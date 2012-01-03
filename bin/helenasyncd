@@ -58,13 +58,13 @@ set -e
 
 case "$1" in
   start)
-	echo -n "Starting $NAME daemon..."
+	echo -n "Starting $NAME daemon..." >> $LOGFILE
 	
-	echo "Executing command : su $RUN_AS_USER -c '$DAEMON -log $LOGLEVEL -delay $DELAY_SEC -logfile $LOGFILE -runner $RUNNERFILE -pidfile $PIDFILE $CONF_FILE'"
+	echo "Executing command : su $RUN_AS_USER -c '$DAEMON -log $LOGLEVEL -delay $DELAY_SEC -logfile $LOGFILE -runner $RUNNERFILE -pidfile $PIDFILE $CONF_FILE'" >> $LOGFILE
 	su $RUN_AS_USER -c "$DAEMON -log $LOGLEVEL -delay $DELAY_SEC -logfile $LOGFILE -pidfile $PIDFILE $CONF_FILE"
-	echo "done"
+	echo "done" >> $LOGFILE
 
-	echo "Saving daemon $DAEMON pid file"
+	echo "Saving daemon $DAEMON pid file" >> $LOGFILE
 	echo `pidof $DAEMON` > $PIDFILE
 	echo "====== $DAEMON (pid `cat $PIDFILE`) started on `date` =====" >> $LOGFILE
 	echo "====== $DAEMON (pid `echo  $NAME | xargs pidof`) started on `date` =====" >> $LOGFILE
@@ -72,88 +72,89 @@ case "$1" in
 	
 
 	#Starting lipsync updater in a separated thread
-	echo "Starting lipsync updater in a separated thread ... "
+	echo "Starting lipsync updater in a separated thread ... " >> $LOGFILE
 	$UPDATER_DAEMON >> $LOGFILE &
 	eval UPDATER_PID=`ps aux | grep $UPDATER_DAEMON | grep -v grep | awk '{print $2}'`
 	echo $UPDATER_PID > $UPDATER_PIDFILE
-	echo "Done."
-	echo "Updater has started with pid $UPDATER_PID"
+	echo "Done." >> $LOGFILE
+	echo "Updater has started with pid $UPDATER_PID" >> $LOGFILE
 	
 	#notify startup
-	$NOTIFY_BIN "${NAME} has started."
+	$NOTIFY_BIN "${NAME} has started." >> $LOGFILE
 	;;
   stop)
 	set +e
-	echo "Stopping $NAME daemon..."
+	echo "Stopping $NAME daemon..." >> $LOGFILE
 	echo "`date "+%a %b %d %T %Y"` Daemon: helenasyncd is stopping" >> $LOGFILE
 	
 	######## Killing daemon
-	echo "   Killing all $DAEMON ... "
-	echo "       Removing PID file for $DAEMON ... "
+	echo "   Killing all $DAEMON ... " >> $LOGFILE
+	echo "       Removing PID file for $DAEMON ... " >> $LOGFILE
 	if [ -f $PIDFILE ] ; then
-		echo "       PID file found."
-		echo -n "       Killing process with PID `cat $PIDFILE` ... "
+		echo "       PID file found." >> $LOGFILE
+		echo -n "       Killing process with PID `cat $PIDFILE` ... " >> $LOGFILE
 		kill -9 `cat $PIDFILE`		
-		echo "       done."
+		echo "       done." >> $LOGFILE
 
-		echo -n "       Removing PID file ..."
+		echo -n "       Removing PID file ..." >> $LOGFILE
 		rm $PIDFILE
-		echo "       done."
+		echo "       done." >> $LOGFILE
 
 	else
-		echo "       Fail. $PIDFILE not found."
-		echo "       Trying to kill all $DAEMON processes"
+		echo "       Fail. $PIDFILE not found." >> $LOGFILE
+		echo "       Trying to kill all $DAEMON processes" >> $LOGFILE
 		NBPROCESS=`ps aux | grep $DAEMON | grep -v grep | wc -l`
 
 		if [ $NBPROCESS -gt 0 ]; then
 			#ps aux | grep $UPDATER_DAEMON | grep -v grep | awk '{print $2}' | xargs kill -9
 			`killall $DAEMON`
 		else
-			echo "       No process found for daemon $DAEMON"
+			echo "       No process found for daemon $DAEMON" >> $LOGFILE
 		fi
 		
-		echo "       done"
+		echo "       done" >> $LOGFILE
 	fi
 	
 	
 	
 	######### Killing updater daemon
-	echo "   Killing all $UPDATER_DAEMON ... "
-	echo "       Removing PID file for $UPDATER_DAEMON ... "	
+	echo "   Killing all $UPDATER_DAEMON ... " >> $LOGFILE
+	echo "       Removing PID file for $UPDATER_DAEMON ... " >> $LOGFILE
 	if [ -f $UPDATER_PIDFILE ]; then
-		echo "       Pid file found."
-		echo -n "       Killing daemon $UPDATER_DAEMON ... "		
+		echo "       Pid file found." >> $LOGFILE
+		echo -n "       Killing daemon $UPDATER_DAEMON ... " >> $LOGFILE
 		kill -9 `cat $UPDATER_PIDFILE`
 		echo "done"
 
-		echo -n "       Pid file found. PID is : `cat $UPDATER_PIDFILE`. Removing ..."
+		echo -n "       Pid file found. PID is : `cat $UPDATER_PIDFILE`. Removing ..." >> $LOGFILE
 		rm $UPDATER_PIDFILE
-		echo "       Done."
+		echo "       Done." >> $LOGFILE
 
 	else
-		echo "       Fail. $UPDATER_PIDFILE not found."
-		echo "       Trying to kill all $UPDATER_DAEMON processes"
+		echo "       Fail. $UPDATER_PIDFILE not found." >> $LOGFILE
+		echo "       Trying to kill all $UPDATER_DAEMON processes" >> $LOGFILE
 		NBPROCESS=`ps aux | grep $UPDATER_DAEMON | grep -v grep | wc -l`
 
 		if [ $NBPROCESS -gt 0 ]; then
 			ps aux | grep $UPDATER_DAEMON | grep -v grep | awk '{print $2}' | xargs kill -9
 		else
-			echo "       No process found for daemon $UPDATER_DAEMON"
+			echo "       No process found for daemon $UPDATER_DAEMON" >> $LOGFILE
 		fi
-		echo "       done"
+		echo "       done" >> $LOGFILE
 	fi
 	#
-	echo "Done."
+	echo "Done." >> $LOGFILE
 	set -e
 
 	$NOTIFY_BIN "$NAME daemon stopped."
 	;;
   force-reload)
 	# check whether $DAEMON is running. If so, restart
-	start-stop-daemon --stop --test --quiet --pidfile \
-		$PIDFILE --exec $DAEMON \
-	&& $0 restart \
-	|| exit 0
+	#start-stop-daemon --stop --test --quiet --pidfile \
+	#	$PIDFILE --exec $DAEMON \
+	#&& $0 restart \
+	#|| exit 0
+	echo "Not implemented yet." >> $LOGFILE
 	;;
   restart)
 	echo -n "Restarting $DESC: "
