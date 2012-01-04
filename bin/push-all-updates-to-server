@@ -1,0 +1,69 @@
+#!/bin/sh -e
+# Distributed under the terms of the BSD License.
+# Copyright (c) 2011 Phil Cryer phil.cryer@gmail.com
+# Source https://github.com/philcryer/lipsync
+
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+PARAM_CONF_FILE=/opt/helenasync/conf/helenasync.conf
+
+###############
+# source config, define logfile
+###############
+if [ -e $PARAM_CONF_FILE ]; then
+        . $PARAM_CONF_FILE
+else
+	echo "****** ERROR ******* : The configuration file $PARAM_CONF_FILE does not exist !"
+	exit -1
+fi
+
+echo "`whoami` is retrieving updates from all servers."
+
+###############
+# this from http://code.google.com/p/lsyncd/wiki/HowToExecAfter
+# execute rsync just like it would have been done directly,
+# but save the exit code
+###############
+#IFS=
+err=0
+
+###############
+# prevent data loss if there is a running rsync launched by lsyncd
+###############
+echo "`date "+%a %b %d %T %Y"` Cron: checking for running lipsync processes" >> $LOGFILE
+eval NB_RSYNC_PROCESS=`ps aux | grep rsync | grep "$REMOTE_HOST" | grep -v rsyncssh | grep -cv grep`
+echo "`date "+%a %b %d %T %Y"` retrieve_all_updates: found $NB_RSYNC_PROCESS running $NAME processes" >> $LOGFILE
+if [ $NB_RSYNC_PROCESS -ne 0 ]; then
+        EXITMSG="`date "+%a %b %d %T %Y"` push-all-updates: not running $NAME, another process already running"
+        echo "${EXITMSG}" >> $LOGFILE
+        $NOTIFY_BIN "${EXITMSG}"
+        exit 0
+fi
+
+###############
+# run the rsync command to check server for updated files
+###############
+echo "-------- PUSHING UPDATES TO SERVER -------"
+configs=$(sed -n '/sync{/{:a;n;/}?/b;p;ba}' $CONF_FILE | tr -d "[:space:]" | sed -e "s/sync{/\n/g")
+
+for x in $configs
+do
+    echo ">>> [$x]"
+    sourcepath=$(echo $x | grep -o source\=\".*\" | cut -d, -f1 | sed -e "s/source\=\"//g" -e "s/\"$//g")
+    echo "Source path: $sourcepath"
+
+    host=$(echo $x | grep -o host\=\".*\" | cut -d, -f1 | sed -e "s/host\=\"//g" -e "s/\"$//g")
+    echo "Host: $host"
+
+    targetdir=$(echo $x | grep -o targetdir\=\".*\" | cut -d, -f1 | sed -e "s/targetdir\=\"//g" -e "s/\"$//g")
+    echo "target dir: $targetdir"
+
+    rsyncOpts=$(echo $x | grep -o rsyncOpts\=\".*\" | cut -d, -f1 | sed -e "s/rsyncOpts\=\"//g" -e "s/\"$//g")
+    echo "rsyncOpts: $rsyncOpts"
+
+    echo "Executing command : $PULL_BIN $host:$targetdir $sourcepath $rsyncOpts"
+    $PUSH_BIN $sourcepath $host:$targetdir $rsyncOpts
+done
+
+echo "------------------ END ------------------------"
+exit $err
+
