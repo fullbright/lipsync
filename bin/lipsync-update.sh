@@ -6,6 +6,8 @@
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 PARAM_CONF_FILE=/opt/helenasync/conf/helenasync.conf
 
+echo "`whoami` is executing this script."
+
 ###############
 # source config, define logfile
 ###############
@@ -17,9 +19,9 @@ fi
 
 #loop to update often
 while true; do
-	echo "Retrieving data from servers"
-	$PULL_ALL_BIN
-	echo "Done."
-	echo "Going to sleep $UPDATE_FREQ seconds"
+	echo "Going to sleep $UPDATE_FREQ" >> $LOGFILE
 	sleep $UPDATE_FREQ
+	echo "Retrieving data from servers" >> $LOGFILE
+	$PULL_ALL_BIN
+	echo "Done." >> $LOGFILE
 done

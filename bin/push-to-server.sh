@@ -18,10 +18,18 @@ else
 	echo "****** ERROR ******* : The configuration file $PARAM_CONF_FILE does not exist !"
 fi
 
+POPUPMESSAGE=""
+SLEEP_DURATION=5
+
 ###############
-# Print configuration file (just in case we are in command line mode)
+# Print configuration file if variables are not set
+# (just in case we are in command line mode)
 ###############
-cat $CONF_FILE
+if [ -n "$1" ]; then
+	echo "Varible 1 is set. Not printing the config file"
+else
+	cat $CONF_FILE
+fi
 
 ###############
 # Test if variable $1, $2 and $3 are set or not
@@ -47,19 +55,36 @@ else
 	read REMOTE_DIR
 fi
 
-#REMOTE_DIR="$2"
-RSYNC_OPTS="-ravC --stats"
-POPUPMESSAGE=""
-SLEEP_DURATION=5
+# rsync options
+if [ -n "$3" ]; then
+	echo "Variable RSYNC_OPTS is set"
+	RSYNC_OPTS="$3"
+else
+	echo "Variable RSYNC_OPTS is not set. Setting default value ..."
+	RSYNC_OPTS="-ravC --stats"
+fi
+
+###############
+# DO NOT RUN if lipsyncd isn't running
+###############
+eval LIPSYNCD_PROCESS=`ps aux | grep $PIDFILE | grep -cv grep`
+if [ $LIPSYNCD_PROCESS -eq 0 ]; then
+            echo "No $NAME process running. Exiting ..."
+            $NOTIFY_BIN "No $NAME process running. Exiting ..."
+	    exit 0
+fi
 
 ###############
 # prevent data loss if there is a running rsync launched by lsyncd
 ###############
+
+# Extract remote host from remote dir path
+CURRENT_REMOTE_HOST=$(echo $REMOTE_DIR  | cut -d: -f1)
 echo "`date "+%a %b %d %T %Y"` Cron: checking for running lipsync processes" >> $LOGFILE
-eval NB_RSYNC_PROCESS=`ps aux | grep rsync | grep "$REMOTE_HOST" | grep -v rsyncssh | grep -cv grep`
+eval NB_RSYNC_PROCESS=`ps aux | grep rsync | grep "$CURRENT_REMOTE_HOST" | grep -v rsyncssh | grep -cv grep`
 echo "`date "+%a %b %d %T %Y"` Cron: found $NB_RSYNC_PROCESS running $NAME processes" >> $LOGFILE
 if [ $NB_RSYNC_PROCESS -ne 0 ]; then
-        EXITMSG="`date "+%a %b %d %T %Y"` Cron: not running $NAME, another process already running"
+        EXITMSG="`date "+%a %b %d %T %Y"` push-to-server: not running $NAME, another process already running"
         echo "${EXITMSG}" >> $LOGFILE
         $NOTIFY_BIN "${EXITMSG}"
         exit 0
@@ -121,7 +146,12 @@ fi
 ###############
 # pop up info
 ###############
-$NOTIFY_BIN "$LOCAL_DIR \n${POPUPMESSAGE}"
+# do not popup if no file was deleted of synced
+if [[ "${DELETED_FILES}" -eq "0" && "${TOTAL_TRANS}" -eq "0" ]]; then
+	echo "Not poping up! ${POPUPMESSAGE}" >> $LOGFILE 
+else
+	$NOTIFY_BIN "$LOCAL_DIR \n${POPUPMESSAGE}"
+fi
 
 ###############
 # Wait few seconds

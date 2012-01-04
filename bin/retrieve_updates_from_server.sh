@@ -16,22 +16,14 @@ else
 	exit -1
 fi
 
-###############
-# DO NOT RUN if lipsyncd isn't running
-###############
-eval LIPSYNCD_PROCESS=`ps aux | grep $PIDFILE | grep -cv grep`
-if [ $LIPSYNCD_PROCESS -eq 0 ]; then
-            echo "No $NAME process running. Exiting ..."
-            $NOTIFY_BIN "No $NAME process running. Exiting ..."
-	        exit 0
-fi
+echo "`whoami` is retrieving updates from all servers."
 
 ###############
 # this from http://code.google.com/p/lsyncd/wiki/HowToExecAfter
 # execute rsync just like it would have been done directly,
 # but save the exit code
 ###############
-IFS=
+#IFS=
 err=0
 
 ###############
@@ -39,9 +31,9 @@ err=0
 ###############
 echo "`date "+%a %b %d %T %Y"` Cron: checking for running lipsync processes" >> $LOGFILE
 eval NB_RSYNC_PROCESS=`ps aux | grep rsync | grep "$REMOTE_HOST" | grep -v rsyncssh | grep -cv grep`
-echo "`date "+%a %b %d %T %Y"` Cron: found $NB_RSYNC_PROCESS running $NAME processes" >> $LOGFILE
+echo "`date "+%a %b %d %T %Y"` retrieve_all_updates: found $NB_RSYNC_PROCESS running $NAME processes" >> $LOGFILE
 if [ $NB_RSYNC_PROCESS -ne 0 ]; then
-        EXITMSG="`date "+%a %b %d %T %Y"` Cron: not running $NAME, another process already running"
+        EXITMSG="`date "+%a %b %d %T %Y"` retrieve_all_updates: not running $NAME, another process already running"
         echo "${EXITMSG}" >> $LOGFILE
         $NOTIFY_BIN "${EXITMSG}"
         exit 0
@@ -56,15 +48,30 @@ fi
 ### to keep dirs sync two ways
 ###
 echo "-------- RETRIEVING UPDATES FROM SERVER -------"
-$PULL_BIN home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ /home/fullbright/scripts/
+#$PULL_BIN home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ /home/fullbright/scripts/
+#$PULL_BIN home.afanou.com:/home/sergio/mydropbox/ /home/fullbright/mydropbox/
+#$PULL_BIN home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ /home/fullbright/Documents/Personnel/documents/
+#$PULL_BIN home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ /home/fullbright/Documents/Professionnel/
+configs=$(sed -n '/sync{/{:a;n;/}?/b;p;ba}' $CONF_FILE | tr -d "[:space:]" | sed -e "s/sync{/\n/g")
 
-$PULL_BIN home.afanou.com:/home/sergio/mydropbox/ /home/fullbright/mydropbox/
+for x in $configs
+do
+    echo ">>> [$x]"
+    sourcepath=$(echo $x | grep -o source\=\".*\" | cut -d, -f1 | sed -e "s/source\=\"//g" -e "s/\"$//g")
+    echo "Source path: $sourcepath"
 
-#$PULL_BIN home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ /media/OS/Users/gpartner/Personnel/sergio/documents/
-$PULL_BIN home.afanou.com:/media/DATA/SERGIO-PC/sergio/documents/ /home/fullbright/Documents/Personnel/documents/
+    host=$(echo $x | grep -o host\=\".*\" | cut -d, -f1 | sed -e "s/host\=\"//g" -e "s/\"$//g")
+    echo "Host: $host"
 
-#$PULL_BIN home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ /media/OS/Users/gpartner/Professionel/
-$PULL_BIN home.afanou.com:/media/DATA/SERGIO-PC/Professionel/ /home/fullbright/Documents/Professionnel/
+    targetdir=$(echo $x | grep -o targetdir\=\".*\" | cut -d, -f1 | sed -e "s/targetdir\=\"//g" -e "s/\"$//g")
+    echo "target dir: $targetdir"
+
+    rsyncOpts=$(echo $x | grep -o rsyncOpts\=\".*\" | cut -d, -f1 | sed -e "s/rsyncOpts\=\"//g" -e "s/\"$//g")
+    echo "rsyncOpts: $rsyncOpts"
+
+    echo "Executing command : $PULL_BIN $host:$targetdir $sourcepath $rsyncOpts"
+    $PULL_BIN $host:$targetdir $sourcepath $rsyncOpts
+done
 
 echo "------------------ END ------------------------"
 ###

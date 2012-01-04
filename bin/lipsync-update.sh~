@@ -11,13 +11,15 @@ PARAM_CONF_FILE=/opt/helenasync/conf/helenasync.conf
 ###############
 if [ -e $PARAM_CONF_FILE ]; then
         . $PARAM_CONF_FILE
+else
+	echo "****** ERROR ******* : The configuration file $PARAM_CONF_FILE does not exist !"
 fi
 
 #loop to update often
 while true; do
-	echo "Retrieving data from servers"
-	$PULL_ALL_BIN
-	echo "Done."
-	echo "Going to sleep $UPDATE_FREQ seconds"
+	echo "Going to sleep $UPDATE_FREQ" >> $LOGFILE
 	sleep $UPDATE_FREQ
+	echo "Retrieving data from servers" >> $LOGFILE
+	$PULL_ALL_BIN
+	echo "Done." >> $LOGFILE
 done

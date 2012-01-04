@@ -72,15 +72,16 @@ case "$1" in
 	
 
 	#Starting lipsync updater in a separated thread
-	echo "Starting lipsync updater in a separated thread ... " >> $LOGFILE
-	$UPDATER_DAEMON >> $LOGFILE &
+	echo "Starting lipsync updater in a separated thread as user $RUN_AS_USER ... " >> $LOGFILE
+	echo "Executing command : su $RUN_AS_USER -c '$UPDATER_DAEMON >> $LOGFILE &'"
+	su $RUN_AS_USER -c "$UPDATER_DAEMON >> $LOGFILE &"
 	eval UPDATER_PID=`ps aux | grep $UPDATER_DAEMON | grep -v grep | awk '{print $2}'`
 	echo $UPDATER_PID > $UPDATER_PIDFILE
 	echo "Done." >> $LOGFILE
 	echo "Updater has started with pid $UPDATER_PID" >> $LOGFILE
 	
 	#notify startup
-	$NOTIFY_BIN "${NAME} has started." >> $LOGFILE
+	su $RUN_AS_USER -c "$NOTIFY_BIN \"${NAME} has started.\" >> $LOGFILE"
 	;;
   stop)
 	set +e
@@ -146,7 +147,7 @@ case "$1" in
 	echo "Done." >> $LOGFILE
 	set -e
 
-	$NOTIFY_BIN "$NAME daemon stopped."
+	su $RUN_AS_USER -c "$NOTIFY_BIN \"$NAME daemon stopped.\""
 	;;
   force-reload)
 	# check whether $DAEMON is running. If so, restart

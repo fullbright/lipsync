@@ -1,55 +1,57 @@
 #!/bin/bash
 #
 #
-# Read sync convfiguration from lua file
+# Read sync configuration from lua file
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+PARAM_CONF_FILE=/opt/helenasync/conf/helenasync.conf
 
+###############
+# source config, define logfile
+###############
+if [ -e $PARAM_CONF_FILE ]; then
+        . $PARAM_CONF_FILE
+else
+	echo "****** ERROR ******* : The configuration file $PARAM_CONF_FILE does not exist !"
+	exit -1
+fi
 
-#INPUT=/home/fullbright/.helenasync/data.csv
-INPUTFILE=/opt/helenasync/conf/helenasync.lua
+echo
 
-#cat /opt/helenasync/conf/helenasync.lua | tr '\n' '\t' | grep sync{\n*.*}
-#eval SYNCS=`tr '\n' ' ' < $INPUT | grep -o sync\{\n*.*\}`
+#echo "Testing with sed : "
+#SYNC2=$(sed -n '/sync{/{:a;n;/}?/b;p;ba}' $CONF_FILE | tr -d "[:space:]")
+#echo $SYNC2
 
-#cat $INPUTFILE | tr -d '\n' | grep -o sync\{\n*.*\}
-SYNCS=$(tr '\n' ' ' < $INPUTFILE | grep -o sync\{.*\})
+#echo "Replacing patterns"
+#echo $SYNC2 | sed -e "s/sync{/\n/g"
 
-echo "Syncs is : $SYNCS"
+#arr2=$(echo $SYNC2 | sed -e "s/sync{/\n/g")
+#echo "Iterating through $arr2"
 
-#SYNCS2=$(sed -e "s/sync{/ /g" < $SYNCS)
+arr2=$(sed -n '/sync{/{:a;n;/}?/b;p;ba}' $CONF_FILE | tr -d "[:space:]" | sed -e "s/sync{/\n/g")
 
-#echo
-#echo $SYNCS2
-
-OIFS=$IFS
-IFS=','
-arr2=$(sed -e "s/sync{/ /g" "$SYNCS") #$SYNCS
 for x in $arr2
 do
     echo "> [$x]"
+    arr3=$(echo $x | sed -e "s/,/\n/g")
+    sourcepath=$(echo $x | grep -o source\=\".*\" | cut -d, -f1 | sed -e "s/source\=\"//g" -e "s/\"$//g")
+    echo "Source path: $sourcepath"
+
+    host=$(echo $x | grep -o host\=\".*\" | cut -d, -f1 | sed -e "s/host\=\"//g" -e "s/\"$//g")
+    echo "Host: $host"
+
+    targetdir=$(echo $x | grep -o targetdir\=\".*\" | cut -d, -f1 | sed -e "s/targetdir\=\"//g" -e "s/\"$//g")
+    echo "target dir: $targetdir"
+
+    rsyncOpts=$(echo $x | grep -o rsyncOpts\=\".*\" | cut -d, -f1 | sed -e "s/rsyncOpts\=\"//g" -e "s/\"$//g")
+    echo "rsyncOpts: $rsyncOpts"
+
+    echo
+    echo "---------"
+    echo "--------- PULL FROM SERVER  ------------"
+    echo "---------"
+    #$PULL_BIN home.afanou.com:/media/DATA/SERGIO-PC/sergio/syncwin/ /home/fullbright/scripts/
+    echo "Executing command : $PULL_BIN $host:$targetdir $sourcepath $rsyncOpts"
+    echo
+    echo "---------"
 done
-
-IFS=$OIFS
-
-# split into multiple item
-#arr=$(echo $SYNCS | tr "sync{" "\n")
-
-#for x in $arr
-#do
-#    echo "\"$x\""
-#done
-
-#OLDIFS=$IFS
-#IFS=,
-#[ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
-#while read flname dob ssn tel status
-#do
-#	echo "Name : $flname"
-#	echo "DOB : $dob"
-#	echo "SSN : $ssn"
-#	echo "Telephone : $tel"
-#	echo "Status : $status"
-#	echo "--"
-#done < $INPUT
-#IFS=$OLDIFS
-
 

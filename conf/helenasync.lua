@@ -21,7 +21,14 @@ sync{
 
 }
 
-sync{default.rsyncssh, source="/home/fullbright/mydropbox/", host="sergio@home.afanou.com", targetdir="/home/sergio/mydropbox/", rsyncOpts="-ltusravC", init=false}
+sync{
+     default.rsyncssh, 
+     source="/home/fullbright/mydropbox/", 
+     host="sergio@home.afanou.com", 
+     targetdir="/home/sergio/mydropbox/", 
+     rsyncOpts="-ltusravC", 
+     init=false
+}
 
 sync{default.rsyncssh, source="/home/fullbright/Documents/Personnel/documents/", host="sergio@home.afanou.com", targetdir="/media/DATA/SERGIO-PC/sergio/documents/", rsyncOpts="-ltusravC", init=false}
 

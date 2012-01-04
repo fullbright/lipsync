@@ -1,4 +1,5 @@
 
+ - do not display message if no file was deleted or synced
  - USER_NAME=`whoami` ou USER_NAME=myusername ?
 	Guest automatically the username ? What if config file is called by sudo ?
  - helenasyncd force-reload 
@@ -18,6 +19,10 @@
 	compile the file and copy it in the path package.path
  - Move the CONFIGFILE inclusion to only one place
 	Instead of including the configuration file each time in a bin.* file, include it once and use the parameters.
+ - In pull/push to/from server sh files, use the real host address to grep the lines.
+
+ - turn read directory to sync into a function
+
  - Easy the manual pull and push usage
  - To be able to stop sync temporary
  - To be able not to sync when connexion is not available
@@ -27,6 +32,17 @@
  - Check if internet connexion is available 
     If not, retry in a bigger amount of time.
  - Each time we run the download script and there is no file to sync, come back in a bigger amount of time
+ - add remote backup dir
+ - remove checking for data loss prevention in pull-all or push-all
+
+v1.2
+ - Read the configuration file from lua file 
+ - Read configuration file from lua file when pulling from server
+ - Move verification (if helenasync is running or another rsync is running) to push / pull scripts
+ - Change exit message to match the running script
+ - Check custom remote host when executing pull/push script so we can really know if we are going to issue a connection to the same host (case of multiple hosts)
+ - Bug fixed : root was executing the update process. Now it is the current connected user
+ - Do not print config file if variables are submitted
  
 v1.1
  - Check each file we read to avoid bugs on access : config file, pid file, log file
