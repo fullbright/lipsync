@@ -17,8 +17,8 @@ sync{
     host="sergio@home.afanou.com", 
     targetdir="/media/DATA/SERGIO-PC/sergio/syncwin/", 
     rsyncOpts="-ltusravC",
-    statusFile="/tmp/lsyncd.status"
-
+    statusFile="/tmp/lsyncd.status",
+    insist = 1
 }
 
 sync{
@@ -27,9 +27,10 @@ sync{
      host="sergio@home.afanou.com", 
      targetdir="/home/sergio/mydropbox/", 
      rsyncOpts="-ltusravC", 
-     init=false
+     init=false,
+     insist = 1
 }
 
-sync{default.rsyncssh, source="/home/fullbright/Documents/Personnel/documents/", host="sergio@home.afanou.com", targetdir="/media/DATA/SERGIO-PC/sergio/documents/", rsyncOpts="-ltusravC", init=false}
+sync{default.rsyncssh, source="/home/fullbright/Documents/Personnel/documents/", host="sergio@home.afanou.com", targetdir="/media/DATA/SERGIO-PC/sergio/documents/", rsyncOpts="-ltusravC", init=false, insist = 1}
 
-sync{default.rsyncssh, source="/home/fullbright/Documents/Professionnel/", host="sergio@home.afanou.com", targetdir="/media/DATA/SERGIO-PC/Professionel/", rsyncOpts="-ltusravC", init=false}
+sync{default.rsyncssh, source="/home/fullbright/Documents/Professionnel/", host="sergio@home.afanou.com", targetdir="/media/DATA/SERGIO-PC/Professionel/", rsyncOpts="-ltusravC", init=false, insist = 1}
