@@ -168,13 +168,24 @@ case "$1" in
 	$NOTIFY_BIN "$NAME has restarted."
 	;;
   status)
-	if [ -s $PIDFILE ]; then
-        	echo "$NAME is running as PID `cat $PIDFILE`."
-                exit 0
-        else
-           	echo "$NAME not running."
-           	exit 1
-        fi
+	echo "Checking $NAME status ..."
+	echo "Checking PID file $PIDFILE"
+	if [ -f $PIDFILE ] ; then
+		echo "  There is a PID file ! PID is `cat $PIDFILE`"
+		echo "  $NAME might be running. We will check that in the next steps."
+	else
+		echo "  No $PIDFILE not found. $NAME might not be running."
+	fi
+
+	echo "Checking if daemon $NAME is running"
+	NBPROCESS=`ps aux | grep $NAME | grep $DAEMON | grep -v grep | wc -l`
+
+	if [ $NBPROCESS -gt 0 ]; then
+		echo "  There is $NBPROCESS running for $NAME"
+	else
+		echo "  No process found for daemon $DAEMON"
+	fi		
+	echo "done"
 	;;
   *)
 	N=/etc/init.d/$NAME
