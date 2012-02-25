@@ -72,6 +72,21 @@ if [ $NB_RSYNC_PROCESS -ne 0 ]; then
         exit 0
 fi
 
+# Do not sync if there are offline files available in the offline directory
+if [ -d $OFFLINE_DIR ]; then
+	offlinefilesnb=`ls $OFFLINE_DIR | wc -l`
+	if [ $offlinefilesnb -ne 0 ]; then
+		echo "There is no offline file, continue execution" >> $LOGFILE
+	else
+		EXITMSG="There are $offlinefilesnb offline files. Please run load-offline-items script to push the offline files to upstream"
+		echo $EXITMSG >> $LOGFILE
+		$NOTIFY_BIN "Offline files exist" $EXITMSG
+		exit 0
+	fi
+else
+	echo "There is no $OFFLINE_DIR offline dir." >> $LOGFILE
+fi
+
 echo "-------- Retrieving updates : $REMOTE_DIR -> $LOCAL_DIR" >> $LOGFILE
 
 nice rsync $RSYNC_OPTS --stats --delete --backup --backup-dir=$BACKUP_DIR --log-file=$LOGFILE --exclude-from=$EXCLUDE_FILE  -e "ssh -l $REMOTE_USER_NAME -p 22" $REMOTE_DIR $LOCAL_DIR
@@ -115,7 +130,7 @@ fi
 TOTAL_TRANS=`cat $LOGFILE |grep "Number of files transferred" | tail -n1 | cut -d" " -f8`
 echo "Total trans : $TOTAL_TRANS"
 
-if [ "${TOTAL_TRANS}" -gt '0' ]; then
+if [ $TOTAL_TRANS -gt 0 ]; then
     	if [ "${TOTAL_TRANS}" -eq '1' ]; then
 		    POPUPMESSAGE="${POPUPMESSAGE} \n$TOTAL_TRANS file synced"
 	    else

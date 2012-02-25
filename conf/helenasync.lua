@@ -17,7 +17,7 @@ sync{
     host="sergio@home.afanou.com", 
     targetdir="/media/DATA/SERGIO-PC/sergio/syncwin/", 
     rsyncOpts="-ltusravC",
-    statusFile="/tmp/lsyncd.status",
+    statusFile="/opt/helenasync/log/lsyncd1.status",
     insist = 1
 }
 
@@ -28,6 +28,7 @@ sync{
      targetdir="/home/sergio/mydropbox/", 
      rsyncOpts="-ltusravC", 
      init=false,
+     statusFile="/opt/helenasync/log/lsyncd2.status",
      insist = 1
 }
 
