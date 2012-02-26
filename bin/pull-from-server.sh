@@ -127,10 +127,10 @@ fi
 ###############
 # count transfered files
 ###############
-TOTAL_TRANS=`cat $LOGFILE |grep "Number of files transferred" | tail -n1 | cut -d" " -f8`
+TOTAL_TRANS=`cat $LOGFILE | grep "Number of files transferred" | tail -n1 | cut -d" " -f5`
 echo "Total trans : $TOTAL_TRANS"
 
-if [ $TOTAL_TRANS -gt 0 ]; then
+if [[ "${TOTAL_TRANS}" -gt "0" ]]; then
     	if [ "${TOTAL_TRANS}" -eq '1' ]; then
 		    POPUPMESSAGE="${POPUPMESSAGE} \n$TOTAL_TRANS file synced"
 	    else
