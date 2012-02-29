@@ -61,7 +61,7 @@ case "$1" in
 	echo -n "Starting $NAME daemon..." >> $LOGFILE
 	
 	echo "Executing command : su $RUN_AS_USER -c '$DAEMON -log $LOGLEVEL -delay $DELAY_SEC -logfile $LOGFILE -runner $RUNNERFILE -pidfile $PIDFILE $CONF_FILE'" >> $LOGFILE
-	su $RUN_AS_USER -c "$DAEMON -log $LOGLEVEL -delay $DELAY_SEC -logfile $LOGFILE -pidfile $PIDFILE $CONF_FILE"
+	su $RUN_AS_USER -c "$DAEMON -log $LOGLEVEL -delay $DELAY_SEC -logfile $LOGFILE -pidfile $PIDFILE $CONF_FILE -insist"
 	echo "done" >> $LOGFILE
 
 	echo "Saving daemon $DAEMON pid file" >> $LOGFILE
@@ -187,9 +187,34 @@ case "$1" in
 	fi		
 	echo "done"
 	;;
+  test-connection)
+	echo "Checking $NAME connection status ..."
+	$TESTCONNECTION_DAEMON	
+	echo "done"
+	;;
+  load-offline-items)
+	echo "Syncing offline items to server ..."
+	$LOADOFFLINE_DAEMON	
+	echo "done"
+	;;
+  print-deleted)
+	echo "Print deleted files ..."
+	$PRINTDELETED_DAEMON	
+	echo "done"
+	;;
+  pull-all)
+	echo "Pulling all items from server ..."
+	$PULL_ALL_BIN	
+	echo "done"
+	;;
+  push-all)
+	echo "Pushing all item to server ..."
+	$PUSH_ALL_BIN	
+	echo "done"
+	;;
   *)
 	N=/etc/init.d/$NAME
-	echo "Usage: $N {start|stop|restart|force-reload}" >&2
+	echo "Usage: $N {start|stop|restart|force-reload|test-connection|load-offline-items|print-deleted|pull-all|push-all}" >&2
 	exit 1
 	;;
 esac

@@ -16,7 +16,10 @@ fi
 
 POPUPMESSAGE=""
 SLEEP_DURATION=5
-NTH_RUN=5
+# default last run value
+# 60 min * 24 = 1440 / 40 = 36 
+# process will run 36 times a day
+NTH_RUN=36
 RESTORE=false
 
 ##############

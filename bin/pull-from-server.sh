@@ -46,6 +46,18 @@ else
 fi
 
 ###############
+# Do not run if there is no internet connection
+###############
+if eval "ping -c 1 www.google.com"; then
+	echo "`date "+%a %b %d %T %Y"` We've got internet" >> $LOGFILE
+else
+	MESSAGE="[`date "+%a %b %d %T %Y"`] No internet connection available at the moment. Will try later. Exiting ..."
+	echo "$MESSAGE" >> $LOGFILE
+	$NOTIFY_BIN "Error ! $MESSAGE"
+	exit 0
+fi
+
+###############
 # DO NOT RUN if lipsyncd isn't running
 ###############
 eval LIPSYNCD_PROCESS=`ps aux | grep $PIDFILE | grep -cv grep`
@@ -72,7 +84,9 @@ if [ $NB_RSYNC_PROCESS -ne 0 ]; then
         exit 0
 fi
 
+###############
 # Do not sync if there are offline files available in the offline directory
+###############
 if [ -d $OFFLINE_DIR ]; then
 	offlinefilesnb=`ls $OFFLINE_DIR | wc -l`
 	if [ $offlinefilesnb -ne 0 ]; then

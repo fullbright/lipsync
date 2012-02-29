@@ -1,0 +1,17 @@
+#!/bin/bash 
+
+# Method 1 - Download Google.com to a file and check the file
+#WGET="/usr/bin/wget" 
+#$WGET -q --tries=10 --timeout=5 http://www.google.com -O /tmp/index.google &> /dev/null 
+#if [ ! -s /tmp/index.google ];then 
+#	echo "no" 
+#else 
+#	echo "yes" 
+#fi
+
+# Method 2 - ping google.com
+if eval "ping -c 1 www.google.com"; then
+	echo "We've got internet"
+else
+	echo "No internet available"
+fi
